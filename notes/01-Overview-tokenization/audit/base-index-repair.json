@@ -1,0 +1,10 @@
+{
+  "status": "resolved",
+  "helper": "build_video_index.py v4.9.4",
+  "symptom": "Final partial 90s segment emitted 42 frames while manifest requires 43 for ceil(D/2) coverage.",
+  "source_duration_seconds": 4764.716938,
+  "tail_segment_start_seconds": 4680.0,
+  "required_grid_point_seconds": 4764.0,
+  "repair": "Extracted the missing full source frame directly at absolute t=4764.0s using the same 240px base-index scale, wrote the normal completion record, then reran the unmodified helper with --verify-only.",
+  "verification_result": "status=complete completed_segments=53/53 frames=2383/2383"
+}

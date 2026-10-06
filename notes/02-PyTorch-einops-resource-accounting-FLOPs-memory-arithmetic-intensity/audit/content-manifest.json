@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "02-PyTorch-einops-resource-accounting-FLOPs-memory-arithmetic-intensity.md",
+      "bytes": 17038,
+      "sha256": "98d2da37ebc816f6e450a5ff9ee0b73dcabe77c25b73526999977b543409680d"
+    },
+    {
+      "path": "assets/coverage/01-marin-scaling-suite.jpg",
+      "bytes": 128420,
+      "sha256": "5ad995d0ab9658542136a024812225d2e97d280734ced1db635e88db864bb340"
+    },
+    {
+      "path": "assets/coverage/02-motivating-resource-questions.jpg",
+      "bytes": 191490,
+      "sha256": "d9969a67a94d472b3b650b5804b54491bde04c2a5a523977501a188f7cd92f36"
+    },
+    {
+      "path": "assets/coverage/03-fp32-format.jpg",
+      "bytes": 163517,
+      "sha256": "ceeb3f5fddbc6cc37e6fb90fbcdf7b30a037c5c3ec0da5bd3a16d94cb1df976a"
+    },
+    {
+      "path": "assets/coverage/04-bf16-format.jpg",
+      "bytes": 160820,
+      "sha256": "1f64259a83062b395e2f124ba9ca728d2459290e392a61bb61cad9d979ea811b"
+    },
+    {
+      "path": "assets/coverage/05-fp8-fp4-formats.jpg",
+      "bytes": 147576,
+      "sha256": "3cdbe76781709c56d5f7f9ec53848232c020b949ec752ca5d72d5067a6675d7f"
+    },
+    {
+      "path": "assets/coverage/06-cpu-gpu-memory.jpg",
+      "bytes": 132164,
+      "sha256": "aec4db05f830b5cb8c6e0e313bf06c0967e9fe96b2d3a8a4728754195f42cf93"
+    },
+    {
+      "path": "assets/coverage/07-einops-einsum.jpg",
+      "bytes": 93989,
+      "sha256": "1f4ba8ec8ad026f5392777fe51f0241a70259c7d836bd199427899c792c523e3"
+    },
+    {
+      "path": "assets/coverage/08-einops-rearrange.jpg",
+      "bytes": 142318,
+      "sha256": "687cec509ee56f19663895f9537416f9557aed86c144a6fbc43864db7fd49500"
+    },
+    {
+      "path": "assets/coverage/09-matmul-flops.jpg",
+      "bytes": 166994,
+      "sha256": "554ac7cf87d7ce4e1f78e1433d32378eee1f502fb14fc1ffb276a171d536a100"
+    },
+    {
+      "path": "assets/coverage/10-mfu.jpg",
+      "bytes": 226290,
+      "sha256": "92f95d466e8573bd95efdd306e32a34dc79053e3ec688dfcf9341f793150f1e2"
+    },
+    {
+      "path": "assets/coverage/11-compute-memory.jpg",
+      "bytes": 102402,
+      "sha256": "6dad6f3abfd67f0d068c8e56dfdcacf0491c5b0588b3c6c11638988d7f4a246a"
+    },
+    {
+      "path": "assets/coverage/12-roofline.jpg",
+      "bytes": 81520,
+      "sha256": "da097a3896bed2da77670f5c5cd4b3b6ab8260f1faf2d431168fe0a3ccd5d570"
+    },
+    {
+      "path": "assets/coverage/13-deep-network.jpg",
+      "bytes": 65414,
+      "sha256": "ba92c2f206aa0abd9f8103af2766044c5f2244e478399786c5146a6dc1b9009c"
+    },
+    {
+      "path": "assets/coverage/14-backprop-gradients.jpg",
+      "bytes": 163743,
+      "sha256": "112258dcd0af9d5545695d2838c672bb4eba09c366bd7a5b8d6816f61b763ef5"
+    },
+    {
+      "path": "assets/coverage/15-six-nd-summary.jpg",
+      "bytes": 201432,
+      "sha256": "0c5df61033942a46df82a777c145ddac4a6a9290ecdeca6d269739d6e4013cc6"
+    },
+    {
+      "path": "assets/coverage/16-memory-accounting.jpg",
+      "bytes": 195890,
+      "sha256": "e35637fc118adaa09784d49c48c064d8ef30efc74e1df4c087931e0edf6c3b0f"
+    },
+    {
+      "path": "assets/coverage/17-gradient-accumulation.jpg",
+      "bytes": 166815,
+      "sha256": "7e40d28a28e57b8e1c4f16c475a8e4e124cdbf01b7f7a208254fc1477acf93e0"
+    },
+    {
+      "path": "assets/coverage/18-activation-checkpointing.jpg",
+      "bytes": 98903,
+      "sha256": "2bd8adf7fedd27021bdaebe04fb5b785661609aa7409c8e413661443d60f060c"
+    },
+    {
+      "path": "assets/coverage/19-lecture-summary.jpg",
+      "bytes": 92655,
+      "sha256": "4fca731f16a8f750473c64d919932686bf46de7d7ef3a8c3896c9ea2dd476f9e"
+    }
+  ]
+}

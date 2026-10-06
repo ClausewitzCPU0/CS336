@@ -1,0 +1,25 @@
+{
+  "base_index_status": "complete",
+  "interval_seconds": 2,
+  "segment_seconds": 90,
+  "expected_total_frames": 2360,
+  "actual_total_frames": 2360,
+  "completed_segments": 53,
+  "total_segments": 53,
+  "repair": {
+    "segment": 52,
+    "reason": "endpoint fps extraction produced 19/20 frames",
+    "method": "targeted exact 2-second anchor extraction for 4680..4718",
+    "post_repair_verify": "passed"
+  },
+  "contact_sheets": {
+    "window_seconds": 180,
+    "prepared": 27,
+    "inspected": 27,
+    "full_time_axis_inspected": true
+  },
+  "source_frame_size": [
+    1920,
+    1080
+  ]
+}

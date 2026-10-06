@@ -1,0 +1,46 @@
+{
+  "chapter_identity": "PASS",
+  "required_sources": "PASS",
+  "base_index": {
+    "status": "complete",
+    "segments": "57/57",
+    "frames": "2545/2545",
+    "interval_seconds": 2.0,
+    "segment_seconds": 90.0
+  },
+  "contact_sheet_review": {
+    "window_max_seconds": 180,
+    "sheets_inspected": 29,
+    "status": "PASS"
+  },
+  "source_atoms": {
+    "total": 50,
+    "required": 46,
+    "required_exact_numeric_formula_probe_count": 25,
+    "probe_status": "PASS"
+  },
+  "events": {
+    "total": 15,
+    "covered": 15,
+    "status": "PASS"
+  },
+  "visual_coverage": {
+    "ledger_total": 59,
+    "retained": 50,
+    "merged_duplicates": 3,
+    "omitted_noninstructional": 6,
+    "coverage_assets": 50,
+    "embedded_in_markdown": 31,
+    "full_frame_size": [
+      1920,
+      1080
+    ],
+    "status": "PASS"
+  },
+  "papers": {
+    "packaged": 0,
+    "reason": "No paper/assigned reading/required reading was explicitly associated with Lecture 14 on the Spring 2026 schedule or lecture page."
+  },
+  "reader_facing_sanitation": "PASS",
+  "deterministic_checker": "PASS"
+}

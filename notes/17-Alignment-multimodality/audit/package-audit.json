@@ -1,0 +1,34 @@
+{
+  "workflow_version": "v4.9.4",
+  "artifact_basename": "17-Alignment-multimodality",
+  "base_index": {
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2332,
+    "actual_frames": 2332,
+    "segments_completed": 52,
+    "segments_total": 52,
+    "status": "complete",
+    "repair_note": "Final segment hit FFmpeg EOF rounding and initially produced 36/37 samples. Rebuilt only the final segment with post-fps terminal-frame cloning to materialize the expected final 2-second sample; verify-only then passed 2332/2332."
+  },
+  "timeline_review": {
+    "contact_sheet_window_seconds": 180,
+    "contact_sheets_inspected": 26,
+    "coverage_assets_retained": 35,
+    "noninstructional_intervals_omitted": 3
+  },
+  "source_atoms": {
+    "required": 35,
+    "verified": 35
+  },
+  "reader_facing_sanitation": "PASS",
+  "full_frame_geometry": "PASS: 35/35 assets at 1920x1080",
+  "deterministic_checks": "PASS",
+  "zip_extract_check": "pending_final_check",
+  "unverified_ranges": [],
+  "source_atom_obligation": "PASS: 35/35 required atoms verified and mapped to reader-facing sections",
+  "semantic_coverage": "PASS: all official lecture_17.py sections plus the substantial 00:59:21-01:07:18 classroom Q&A are represented",
+  "visual_coverage": "PASS: 26/26 contact sheets inspected; 35 retained full-frame states; 3 reviewed noninstructional intervals omitted",
+  "dynamic_state_chain": "PASS: classroom alignment board state retained; no terminal/IDE/live execution sequence occurs in this lecture",
+  "chapter_specific_papers": "none required by Spring 2026 Lecture 17 schedule"
+}

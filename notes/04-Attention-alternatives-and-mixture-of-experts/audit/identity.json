@@ -1,0 +1,19 @@
+{
+  "target_local_chapter": "P04",
+  "identity_status": "confirmed",
+  "mapping": {
+    "local_chapter": "P04",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 4,
+    "official_title": "Attention alternatives and mixture of experts",
+    "official_date": "2026-04-08",
+    "lecturer": "Tatsunori Hashimoto (Tatsu)"
+  },
+  "evidence": [
+    "Opening video title card explicitly says Lecture 4 / ATTENTION ALTERNATIVES AND MIXTURES OF EXPERTS / CS336 / Tatsu H.",
+    "Local subtitle/video topics progress from attention alternatives to MoE and align with the official schedule row.",
+    "Spring 2026 schedule lists Wed Apr 8: Attention alternatives and mixture of experts [Tatsu] with lecture 4.pdf."
+  ],
+  "input_pairing": "video, subtitle, and multipart archive are consistent",
+  "fail_fast_triggered": false
+}

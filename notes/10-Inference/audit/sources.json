@@ -1,0 +1,91 @@
+{
+  "workflow": {"name": "ChatGPT-Web-Course-Note-Workflow", "version": "v4.9.4"},
+  "target": {"local_chapter": "P10", "official_unit_label": "Lecture", "official_unit_number": 10, "official_title": "Inference", "term": "Spring 2026"},
+  "chapter_identity": {
+    "status": "confirmed",
+    "evidence": [
+      "Local video opening frame visibly states 'Lecture 10: inference'.",
+      "Local VTT opens by contrasting this lecture with the previous scaling-laws lecture and introduces inference.",
+      "Local VTT closes by saying the next class returns to scaling laws part 2.",
+      "Spring 2026 official schedule lists Lecture 10 on 2026-04-29 as 'Inference [Percy]' and links lecture_10.py."
+    ]
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "video_p10",
+      "kind": "video",
+      "provenance_role": "original_video",
+      "term": "Spring 2026",
+      "local_label": "P10",
+      "source_origin": "user-provided course directory; local source collection described as Bilibili BV1msTD6CE6j",
+      "sha256": "5d0b15a6dd14363f4a70544edd9f13b3cf20dbd7a4f598ab8eca45ef634a2f20",
+      "size_bytes": 293334201,
+      "duration_seconds": 5129.646304,
+      "frame_size": [1920, 1080]
+    },
+    {
+      "source_id": "subtitle_p10",
+      "kind": "subtitle",
+      "provenance_role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "local_label": "P10",
+      "sha256": "0f56d944bc48c15e126fe7f7ce039ef6b6fcb4e5aa10b8263126ea02ad9aad5c",
+      "cue_count": 1509,
+      "timeline_start_seconds": 5.32,
+      "timeline_end_seconds": 5124.28
+    },
+    {
+      "source_id": "hard_subtitle_p10",
+      "kind": "subtitle",
+      "provenance_role": "hard_subtitle",
+      "term": "Spring 2026",
+      "local_label": "P10",
+      "note": "Bilingual hard subtitles are visibly burned into the local video and were used only as independent cross-check evidence."
+    },
+    {
+      "source_id": "official_schedule_2026",
+      "kind": "webpage",
+      "provenance_role": "official_schedule",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/"
+    },
+    {
+      "source_id": "official_lecture_10_py",
+      "kind": "code_lecture",
+      "provenance_role": "official_lecture_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_10.py",
+      "git_blob_sha": "9b86c271e2afd33d24da39eb0a39274847b23209"
+    },
+    {
+      "source_id": "official_lectures_repo",
+      "kind": "repository",
+      "provenance_role": "official_repository",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures"
+    }
+  ],
+  "input_discovery": {
+    "course_drive_folder_id": "1A60z2af31HGh5Tdwm5DuUueDiAddbw__",
+    "directory_items_seen": 60,
+    "target_files": [
+      {"name": "[P10]斯坦福 CS336： 推理.vtt", "size_bytes": 108286},
+      {"name": "[P10]斯坦福 CS336： 推理.zip.001", "size_bytes": 209715200, "sha256": "5d55b2642b61a2ac6769f2012bf5733ba5a6f2679b117b10fd58f34ee241735e"},
+      {"name": "[P10]斯坦福 CS336： 推理.zip.002", "size_bytes": 83619191, "sha256": "2fa9b079221d84ccd2bd0cd59b511fb86c8796fbcc69349553f141d426612695"},
+      {"name": "[P10]斯坦福 CS336： 推理.mp4", "size_bytes": 293334201, "note": "Drive direct-file representation; archive-extracted MP4 has the same byte size and is the generation source."}
+    ],
+    "multipart_archive_test": "PASS",
+    "multipart_member_count": 1,
+    "multipart_member": "MP4 video only",
+    "xml_found": false,
+    "xml_requirement": "optional under workflow because no explicit XML requirement was supplied"
+  },
+  "evaluation_only": [
+    {
+      "source_id": "assignment3_scaling",
+      "kind": "assignment",
+      "term": "Spring 2026",
+      "note": "Released adjacent to Lecture 10 on the schedule but not explicitly a lecture-content source for Inference; not used to generate the note body."
+    }
+  ]
+}

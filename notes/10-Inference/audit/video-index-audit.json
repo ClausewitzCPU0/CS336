@@ -1,0 +1,13 @@
+{
+  "source_sha256": "5d0b15a6dd14363f4a70544edd9f13b3cf20dbd7a4f598ab8eca45ef634a2f20",
+  "interval_seconds": 2.0,
+  "segment_seconds": 90.0,
+  "segment_count": 57,
+  "expected_total_frames": 2565,
+  "actual_total_frames": 2565,
+  "base_index_status": "complete",
+  "verify_only": "PASS",
+  "contact_sheet_windows": 29,
+  "contact_sheet_max_window_seconds": 180,
+  "contact_sheet_review": "complete"
+}

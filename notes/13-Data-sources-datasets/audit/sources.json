@@ -1,0 +1,76 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4",
+    "drive_file_id": "1WYurAxgxOjazc-6ybPOyGAU2quAawaTk"
+  },
+  "local_inputs": [
+    {
+      "role": "primary_video",
+      "name": "[P13]斯坦福 CS336：数据（来源、数据集）.mp4",
+      "sha256": "e2106b33a6735808ebbc7874bc7201ca3d0fb3de8582a42ae8046c5801249653",
+      "size_bytes": 253545586,
+      "duration_seconds": 4921.386122,
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "role": "primary_subtitles",
+      "name": "[P13]斯坦福 CS336：数据（来源、数据集）.vtt",
+      "sha256": "bdf9db662801f64bb03ede608ea9af0188c3d33452de9b35096c4036ae495f43",
+      "size_bytes": 104283,
+      "coverage": "00:00:04.640-01:21:56.080"
+    }
+  ],
+  "identity": {
+    "local_chapter": "P13",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 13,
+    "official_title": "Data (sources, datasets)",
+    "date": "2026-05-11",
+    "instructor": "Percy Liang",
+    "term": "Spring 2026",
+    "status": "confirmed"
+  },
+  "first_party_sources": [
+    {
+      "role": "official_schedule",
+      "url": "https://cs336.stanford.edu/",
+      "term": "Spring 2026",
+      "used_for": "lecture number/title/date/instructor and assignment schedule"
+    },
+    {
+      "role": "official_lecture_material",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_13.py",
+      "repository": "stanford-cs336/lectures",
+      "path": "lecture_13.py",
+      "blob_sha": "f92c4d4067c3d70ddeb0f664ddeafad61af4a7c5",
+      "term": "Spring 2026"
+    },
+    {
+      "role": "official_recording",
+      "url": "https://www.youtube.com/watch?v=-qm0ln33G24",
+      "publisher": "Stanford Online",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 13: Data (Sources, Datasets)",
+      "published": "2026-05-19"
+    },
+    {
+      "role": "related_assignment",
+      "url": "https://github.com/stanford-cs336/assignment4-data",
+      "repository": "stanford-cs336/assignment4-data",
+      "readme_blob_sha": "1da163acd68dd3a317e3991ea2ccd309dde65d9b",
+      "relationship": "Assignment 4: Data was released on the Lecture 12 schedule row and is explicitly mentioned at the end of Lecture 13; it is related, not a Lecture 13-specific handout."
+    }
+  ],
+  "local_source_context": {
+    "bilibili_collection": "https://www.bilibili.com/video/BV1msTD6CE6j",
+    "authority": "local-video-source-only"
+  },
+  "other_terms_used": false,
+  "paper_packaging": {
+    "required_chapter_level_paper_found": false,
+    "papers_directory": "empty by design"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "final_gate": "PASS",
+  "chapter_identity": "PASS",
+  "required_sources": "PASS",
+  "base_index": {
+    "status": "PASS",
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2601,
+    "actual_frames": 2601,
+    "completed_segments": 58,
+    "total_segments": 58
+  },
+  "source_atom_obligations": {
+    "status": "PASS",
+    "total_atoms": 36,
+    "required_atoms": 35,
+    "required_covered": 35,
+    "optional_atoms": 1,
+    "optional_covered": 1,
+    "review": "All exact, normalized, structured, and semantic obligations were checked against the final Markdown; live-output values are labeled as classroom-run-specific."
+  },
+  "semantic_coverage": {
+    "status": "PASS",
+    "episodes_total": 9,
+    "episodes_covered": 9,
+    "judgment": "Covers GPU execution/memory constraints, benchmark/profiling, GeLU fusion, Triton/PTX, fused softmax, row-sum tiling, matmul tiling+ReLU, conclusion, and final Q&A nuance."
+  },
+  "visual_coverage": {
+    "status": "PASS",
+    "distinct_or_reviewed_states": 38,
+    "retained": 30,
+    "merged_duplicate": 5,
+    "omitted_noninstructional": 3,
+    "retained_assets_in_package": 30,
+    "markdown_embedded_assets": 24
+  },
+  "dynamic_state_chain": {
+    "status": "PASS",
+    "chains_reviewed": [
+      "occupancy live calculation",
+      "benchmark live output",
+      "profiler table transitions",
+      "GeLU correctness/timing/profiler",
+      "Triton GeLU code -> generated PTX",
+      "softmax algorithm -> fused kernel",
+      "row-sum tiling -> accumulator code",
+      "matmul naive -> tiled design -> Triton implementation"
+    ]
+  },
+  "full_frame_assets": {
+    "status": "PASS",
+    "source_frame_size": [
+      1920,
+      1080
+    ],
+    "asset_count": 30,
+    "mismatch_count": 0
+  },
+  "reader_facing_sanitation": "PASS",
+  "paper_packaging": {
+    "status": "PASS",
+    "chapter_level_required_papers": 0,
+    "papers_packaged": 0,
+    "note": "Assignment 2 is a related assignment, not an explicitly assigned paper/reading."
+  },
+  "material_provenance": {
+    "status": "PASS",
+    "lecture_material_commit": "15d7589d014172e386d6e750a2ef88dd6d6a79ec",
+    "reason": "same-day Spring 2026 commit matches the local recording; current main contains later quantitative edits"
+  },
+  "unverified_ranges": [],
+  "workflow_observation": "The final 90-second base-index segment produced one fewer frame under ffmpeg fps extraction because container/audio duration extended beyond the last video-frame sampling point. A targeted 5200 s cache repair restored the workflow-expected 2601/2601 frame count; verify-only then passed."
+}

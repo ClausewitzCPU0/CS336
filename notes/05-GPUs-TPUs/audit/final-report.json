@@ -1,0 +1,81 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "artifact_basename": "05-GPUs-TPUs",
+  "identity": {
+    "status": "PASS",
+    "mapping": "P05 -> Lecture 5 — GPUs, TPUs",
+    "term": "Spring 2026",
+    "date": "2026-04-13",
+    "speaker": "Tatsunori Hashimoto"
+  },
+  "package_mechanical_checks": {
+    "status": "PASS",
+    "reader_facing_deterministic_checks": "PASS",
+    "workflow_metadata": "PASS",
+    "artifact_basename": "PASS",
+    "local_image_references": "PASS"
+  },
+  "base_index": {
+    "status": "PASS",
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2360,
+    "actual_frames": 2360,
+    "completed_segments": 53,
+    "total_segments": 53,
+    "repair": "segment 52 endpoint repaired with exact 2-second anchors, then verify-only PASS"
+  },
+  "source_atom_obligation": {
+    "status": "PASS",
+    "required": 30,
+    "covered": 30,
+    "destination_missing": 0
+  },
+  "semantic_coverage": {
+    "status": "PASS",
+    "episodes": 19,
+    "covered": 19,
+    "judgment": "All major lecture arguments, examples, formulas, quantitative claims and teacher conclusions represented."
+  },
+  "slide_visual_coverage": {
+    "status": "PASS",
+    "ledger_records": 60,
+    "retained": 57,
+    "merged_duplicates": 2,
+    "omitted_noninstructional": 1
+  },
+  "dynamic_state_chain": {
+    "status": "PASS",
+    "note": "No standalone terminal failure/recovery chain; the TPU code/model comparison incremental build is retained, and all critical visible text is transcribed."
+  },
+  "full_frame_assets": {
+    "status": "PASS",
+    "source_frame_size": [
+      1920,
+      1080
+    ],
+    "asset_count": 57,
+    "mismatch_count": 0,
+    "geometry_processing": "none (no crop/scale/pad)"
+  },
+  "reader_facing_sanitation": {
+    "status": "PASS",
+    "forbidden_html_comments": 0,
+    "internal_audit_markers": 0,
+    "absolute_work_paths": 0
+  },
+  "official_materials": {
+    "spring_2026_lecture_pdf": "discovered and identity-verified; raw PDF content not locally extracted",
+    "chapter_assigned_reading": "none listed by official Schedule"
+  },
+  "unverified_scope": [
+    "Spring 2026 lecture_05.pdf raw bytes were not extracted in this run; no PDF-only claims were imported."
+  ],
+  "main_markdown": {
+    "path": "05-GPUs-TPUs.md",
+    "sha256": "edba0a7101a15106ae795f66b29605fb77631d6424df51cc3463a1593e5c46be"
+  }
+}

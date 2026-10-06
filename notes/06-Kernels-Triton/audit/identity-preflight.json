@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "local_chapter": "P06",
+  "mapping": "P06 -> Lecture 6",
+  "official_title": "Kernels, Triton",
+  "recording_title": "Lecture 6: Kernels, Triton, XLA",
+  "date": "2026-04-15",
+  "lecturer": "Percy Liang",
+  "term": "Spring 2026",
+  "evidence": [
+    "Local MP4/VTT title: Kernels, Triton, XLA",
+    "Opening video state: continuation of GPU lecture; benchmarking/profiling + writing kernels",
+    "Official Spring 2026 schedule: Lecture 6, Wed Apr 15, Kernels, Triton [Percy]",
+    "Same-day lecture_06.py commit 15d7589d014172e386d6e750a2ef88dd6d6a79ec",
+    "Stanford Online recording: Lecture 6: Kernels, Triton, XLA"
+  ],
+  "input_pairing": "PASS: MP4, VTT, and multipart archive all identify P06; reconstructed MP4 size equals Drive direct-file size.",
+  "video_duration_seconds": 5200.745941,
+  "subtitle_range": "00:00:05.240-01:26:36.600"
+}

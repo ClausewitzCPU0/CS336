@@ -1,0 +1,32 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "artifact_basename": "07-Parallelism",
+  "chapter_identity": "PASS: local P07 -> Spring 2026 Lecture 7, Parallelism, Percy Liang, 2026-04-20",
+  "required_input_discovery": "PASS: 60/300 direct children enumerated; exact P07 VTT/MP4/multipart inputs identified",
+  "multipart_rebuild": "PASS: archive CRC test; sole MP4 member extracted; source sha256 ec43003f34e7285b269f992952c3ea195ac34385dca4a4555d1d0db5a8683646",
+  "base_index": "PASS: 55/55 segments, 2432/2432 2-second samples",
+  "official_material_discovery": "PASS: Spring 2026 schedule + lecture_07.py + lecture_07_stdout.txt + official recordings playlist; no chapter-level paper/assigned reading attached to Lecture 7 schedule row",
+  "source_atoms": {
+    "required": 31,
+    "verified_required": 31,
+    "status": "PASS"
+  },
+  "events": {
+    "count": 15,
+    "covered": 15,
+    "status": "PASS"
+  },
+  "visual_coverage": {
+    "retained_assets": 27,
+    "markdown_embedded_assets": 14,
+    "all_full_frame_1920x1080": true,
+    "status": "PASS"
+  },
+  "reader_facing_sanitation": "PASS",
+  "paper_packaging": "not_applicable",
+  "deterministic_checker": "PASS",
+  "known_workflow_observation": "Final 2.337664-second segment exposed an fps/EOF edge case in build_video_index.py: the segment command emitted one sample while ceil(duration/2s) expected two. Exact-timestamp cache frames at 4860s and 4862s repaired the cache without modifying the source; verify-only passed afterward."
+}

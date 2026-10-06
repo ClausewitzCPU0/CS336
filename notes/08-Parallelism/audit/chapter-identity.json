@@ -1,0 +1,35 @@
+{
+  "status": "confirmed",
+  "local_chapter": "P08",
+  "local_title": "并行性（二）",
+  "mapping": {
+    "official_unit_label": "Lecture",
+    "official_unit_number": 8,
+    "official_title": "Parallelism",
+    "official_date": "2026-04-22",
+    "instructor": "Tatsunori Hashimoto",
+    "course_term": "Spring 2026"
+  },
+  "evidence": [
+    {
+      "source_id": "local_video_p08",
+      "anchor": "00:00:00-00:02:00",
+      "detail": "Opening says Percy covered parallelism mechanics in the previous lecture and this lecture focuses on modern large-scale LM-training parallelism."
+    },
+    {
+      "source_id": "local_video_p08",
+      "anchor": "01:20:00-end",
+      "detail": "Closing says the next topic is scaling laws."
+    },
+    {
+      "source_id": "official_schedule_s2026",
+      "detail": "Spring 2026 sequence is Lecture 7 Parallelism [Percy] on Apr 20, Lecture 8 Parallelism [Tatsu] on Apr 22, Lecture 9 Scaling laws [Tatsu] on Apr 27."
+    },
+    {
+      "source_id": "official_lecture08_pdf",
+      "detail": "Schedule maps Lecture 8 to official lecture_08.pdf."
+    }
+  ],
+  "conflicts": [],
+  "decision": "Local P08 is reliably mapped to official Spring 2026 Lecture 8."
+}

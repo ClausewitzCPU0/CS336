@@ -1,0 +1,5 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 05-GPUs-TPUs
+PASS: retained coverage assets present 57/57
+PASS: full-frame coverage assets 57/57 at 1920x1080

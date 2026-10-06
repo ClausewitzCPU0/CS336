@@ -1,0 +1,52 @@
+{
+  "workflow": "ChatGPT-Web-Course-Note-Workflow-v4.9.4",
+  "target_local_chapter": "P03",
+  "identity": {
+    "official_lecture_number": 3,
+    "official_title": "Architectures, hyperparameters",
+    "official_date": "2026-04-06",
+    "speaker": "Tatsunori Hashimoto",
+    "mapping": "P03 -> Lecture 3",
+    "status": "confirmed"
+  },
+  "generation_allowlist": [
+    {
+      "id": "local-video",
+      "kind": "original_video",
+      "path": "/tmp/p03work/input/P03.mp4",
+      "sha256": "19086d47207080db0f7238abb4879ca82a0be1438be481da38a6c51630235b19",
+      "provenance": "local Bilibili-derived course video; identity cross-checked against Spring 2026 first-party sources"
+    },
+    {
+      "id": "local-vtt",
+      "kind": "unknown_subtitle",
+      "path": "/tmp/p03work/input/P03.vtt",
+      "sha256": "feade3faffa7c8f5a6af2c070dd5d5dcc860cc26acfca1504ab038378e7f8c15",
+      "provenance": "local VTT paired by exact P03 basename; opening/middle/end alignment verified"
+    },
+    {
+      "id": "spring2026-schedule",
+      "kind": "same_term_official_schedule",
+      "url": "https://cs336.stanford.edu/",
+      "provenance": "Stanford CS336 Spring 2026 official course site"
+    },
+    {
+      "id": "spring2026-lecture03-slides",
+      "kind": "same_term_official_slides",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_03.pdf",
+      "provenance": "stanford-cs336 official lectures repository, Spring 2026"
+    },
+    {
+      "id": "spring2026-lecture03-video",
+      "kind": "same_term_official_video",
+      "url": "https://www.youtube.com/watch?v=lVynu4bo1rY",
+      "provenance": "Stanford Online verified channel, Spring 2026 Lecture 3"
+    },
+    {
+      "id": "local-source-collection",
+      "kind": "third_party_source_locator",
+      "url": "https://www.bilibili.com/video/BV1msTD6CE6j",
+      "provenance": "local input source locator only; not authoritative for official identity"
+    }
+  ]
+}

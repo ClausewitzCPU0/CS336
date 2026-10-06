@@ -1,0 +1,27 @@
+{
+  "required_source_atoms": 48,
+  "covered_source_atoms": 48,
+  "source_atom_review": "PASS: each frozen required atom was manually mapped to a reader-facing destination during drafting and final review",
+  "semantic_assertions": {
+    "linear_attention_formula": true,
+    "linear_recurrence": true,
+    "mamba2": true,
+    "gated_delta": true,
+    "hybrids": true,
+    "dsa": true,
+    "moe_core": true,
+    "topk_router": true,
+    "load_balance": true,
+    "dropless": true,
+    "z_loss": true,
+    "upcycling": true,
+    "deepseek_evolution": true,
+    "mla_mtp": true
+  },
+  "semantic_assertions_status": "PASS",
+  "markdown_image_references": 30,
+  "missing_markdown_images": [],
+  "markdown_image_status": "PASS",
+  "visual_ledger_review": "PASS: 57 retained full-frame states plus explicit duplicate/noninstructional dispositions",
+  "reader_facing_sanitation": "PASS"
+}

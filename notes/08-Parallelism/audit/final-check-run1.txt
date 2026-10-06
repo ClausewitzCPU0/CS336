@@ -1,0 +1,5 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 08-Parallelism
+PASS: retained coverage assets present 70/70
+PASS: full-frame coverage assets 70/70 at 1920x1080

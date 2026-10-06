@@ -1,0 +1,10 @@
+PASS JSON identity.json
+PASS JSON sources.json
+PASS JSON package-audit.json
+PASS JSON base-index-manifest.json
+PASS JSONL source-atoms.jsonl 22
+PASS JSONL events.jsonl 10
+PASS JSONL slide-coverage.jsonl 27
+PASS required source atoms mapped/verified 21/21
+PASS semantic episodes covered 10/10
+PASS retained visual assets present 19/19

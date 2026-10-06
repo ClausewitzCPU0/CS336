@@ -1,0 +1,99 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter_identity": {
+    "local_chapter": "P11",
+    "official_unit_type": "Lecture",
+    "official_unit_number": 11,
+    "official_title": "Scaling laws",
+    "official_date": "2026-05-04",
+    "instructor": "Tatsunori Hashimoto (Tatsu)",
+    "status": "confirmed",
+    "mapping_basis": [
+      "Local video opening says this continues the scaling journey and refers to scaling-law material from two lectures earlier.",
+      "Spring 2026 official schedule places Scaling laws [Tatsu] at Lecture 9, Inference at Lecture 10, and Scaling laws [Tatsu] at Lecture 11.",
+      "Stanford Online publishes a Spring 2026 recording explicitly titled Lecture 11: Scaling Laws."
+    ]
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p11",
+      "kind": "video",
+      "role": "primary_lecture_video",
+      "term": "Spring 2026",
+      "drive_id": "11ecPry3YClcwJC93WeQ1uveR9dfU9IZ6",
+      "drive_url": "https://drive.google.com/file/d/11ecPry3YClcwJC93WeQ1uveR9dfU9IZ6/view",
+      "filename": "[P11]斯坦福 CS336：缩放定律.mp4",
+      "sha256": "1308d29d959b7d56ec8e6357e5be6a92cf0ab3ebac188023cfe8339b5e7f7963",
+      "duration_seconds": 4623.310975,
+      "primary_video_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source_id": "local_vtt_p11",
+      "kind": "subtitle",
+      "role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "drive_id": "1-7hrUOOvtzjLOAGmykvIbJM2BunsCgBr",
+      "drive_url": "https://drive.google.com/file/d/1-7hrUOOvtzjLOAGmykvIbJM2BunsCgBr/view",
+      "filename": "[P11]斯坦福 CS336：缩放定律.vtt",
+      "sha256": "3ea24dda6ead0681e77bdfb242f996bb45011dac046dd9886650272e682ae03d",
+      "use_policy": "Content discovery and chronology; exact numbers/formulas checked against visible slide frames or lecture context."
+    },
+    {
+      "source_id": "hard_subtitles",
+      "kind": "embedded_video_text",
+      "role": "hard_subtitle",
+      "use_policy": "Independent cross-check only; not treated as unconditional authority."
+    },
+    {
+      "source_id": "official_schedule_s2026",
+      "kind": "web",
+      "role": "official_identity_source",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "publisher": "Stanford CS336 staff"
+    },
+    {
+      "source_id": "official_lectures_repo",
+      "kind": "repository",
+      "role": "official_material_index",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures",
+      "publisher": "stanford-cs336"
+    },
+    {
+      "source_id": "official_recording_l11",
+      "kind": "video_index",
+      "role": "official_identity_crosscheck",
+      "term": "Spring 2026",
+      "url": "https://www.youtube.com/watch?v=vTfEyOyzV9E",
+      "publisher": "Stanford Online"
+    }
+  ],
+  "discovered_not_consumed": [
+    {
+      "source_id": "official_lecture_11_pdf",
+      "kind": "slides_pdf",
+      "role": "same_term_official_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_11.pdf",
+      "access_status": "located_but_raw_pdf_not_materialized_in_this_run",
+      "content_generation_used": false,
+      "note": "Identity/linkage is established by the official schedule and repository. Slide-content claims in the note are grounded in the local Spring 2026 lecture video frames, not inferred from an unread PDF."
+    },
+    {
+      "source_id": "assignment3_scaling",
+      "kind": "assignment",
+      "role": "adjacent_course_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/assignment3-scaling",
+      "content_generation_used": false,
+      "note": "Official schedule releases Assignment 3 at Lecture 10 and marks it due at Lecture 12; it is not explicitly attached to Lecture 11, so it is not merged into this lecture note."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter_identity": {
+    "local_chapter": "P01",
+    "official_unit": "Lecture 1",
+    "official_title": "Overview, tokenization",
+    "date": "2026-03-30",
+    "lecturer": "Percy Liang",
+    "term": "Spring 2026",
+    "status": "confirmed",
+    "evidence": [
+      "local_video_visible_title_and_content",
+      "local_vtt_open_mid_tail_alignment",
+      "official_schedule",
+      "spring2026_lecture_01.py"
+    ]
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local_video",
+      "role": "lecture_video",
+      "term": "Spring 2026",
+      "origin": "Google Drive multipart ZIP reconstructed exactly",
+      "duration_seconds": 4764.716938,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "sha256": "6c4e2b94aa078ae0a924328509cc2fb5c3edc1a9f24f95ba3e73d6012b5e7a04"
+    },
+    {
+      "source_id": "local_vtt",
+      "role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "origin": "Google Drive exact P01 VTT",
+      "sha256": "a8563e860fa0adf8236e376ab6bb949df720d4a91641425a36f75428dff72e45",
+      "timeline_end": "01:19:17.220"
+    },
+    {
+      "source_id": "official_schedule",
+      "role": "official_course_schedule",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "identity_fact": "Lecture 1 | Mon March 30 | Overview, tokenization [Percy] | lecture_01.py | Assignment 1 out"
+    },
+    {
+      "source_id": "lecture_01_py",
+      "role": "official_executable_lecture",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_01.py",
+      "repo": "stanford-cs336/lectures",
+      "git_blob_sha": "b244cf007a7bff5339114e1dc0c5ced66bd61827"
+    },
+    {
+      "source_id": "assignment1_repo",
+      "role": "official_assignment",
+      "term": "Spring 2026 schedule association",
+      "url": "https://github.com/stanford-cs336/assignment1-basics"
+    },
+    {
+      "source_id": "assignment1_handout",
+      "role": "official_assignment_handout",
+      "term": "current official schedule target",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_assignment1_basics.pdf"
+    }
+  ],
+  "input_archive": {
+    "part_001_sha256": "a9368e8a125fd26a4c62de877c496c9ad457f82d217a7ce96ab9d230da679668",
+    "part_002_sha256": "0cc5af8f31310717454fe111d602640354e3fc71edad7eceeb18726b59ceb407",
+    "reconstructed_zip_sha256": "39416b50c2d6609b7ae8a5e9bfe15880a8e447c9af98c1a59283814a511763c8",
+    "archive_member_count": 1,
+    "archive_member_uncompressed_bytes": 271787734,
+    "archive_member_crc32": "614fad57",
+    "unzip_test": "PASS"
+  },
+  "source_notes": [
+    "The local VTT is labeled unknown_subtitle rather than assumed official; critical numbers/identifiers were cross-checked against visible video states and the Spring 2026 executable lecture.",
+    "lecture_01.py contains a stale Spring-2026-specific Assignment 1 PDF filename, while the current official course schedule and assignment repository expose cs336_assignment1_basics.pdf. The current official schedule target is used.",
+    "No other-term materials were needed for generation."
+  ],
+  "evaluation_only": []
+}

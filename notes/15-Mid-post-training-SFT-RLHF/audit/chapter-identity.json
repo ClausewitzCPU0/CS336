@@ -1,0 +1,57 @@
+{
+  "status": "confirmed",
+  "local_chapter": "P15",
+  "mapping": {
+    "official_unit_label": "Lecture",
+    "official_unit_number": 15,
+    "official_title": "Mid/post-training (SFT/RLHF)",
+    "date": "2026-05-18",
+    "instructor": "Tatsunori Hashimoto (Tatsu)"
+  },
+  "evidence": [
+    {
+      "source_id": "video_local_p15",
+      "anchor": "00:00:06–00:00:12",
+      "observation": "Opening slide visibly says Lecture 15 and ‘AFTER PRETRAINING’ (MID/POSTTRAINING), CS336."
+    },
+    {
+      "source_id": "subtitle_local_p15",
+      "anchor": "00:00:05.240–01:19:48.060",
+      "observation": "Transcript consistently covers SFT, midtraining, RLHF, PPO/DPO, overoptimization, and mode collapse through the end of the lecture."
+    },
+    {
+      "source_id": "official_schedule_2026",
+      "anchor": "Lecture 15 row",
+      "observation": "Mon May 18 — Mid/post-training (SFT/RLHF) [Tatsu] — lecture_15.pdf."
+    },
+    {
+      "source_id": "official_stanford_online_video",
+      "anchor": "video title/description",
+      "observation": "Official Spring 2026 recording is Lecture 15: Mid/Post-Training and states that it covers mid/post-training (SFT/RLHF)."
+    },
+    {
+      "source_id": "video_local_p15",
+      "anchor": "~00:40:00 and ~01:18:20",
+      "observation": "Mid-video and end-video visual states/hard subtitles align with the VTT discussion of two-phase training and RLHF calibration/mode collapse."
+    }
+  ],
+  "av_alignment_checks": [
+    {
+      "anchor": "beginning",
+      "time": "00:00:10",
+      "result": "pass"
+    },
+    {
+      "anchor": "middle",
+      "time": "00:40:00",
+      "result": "pass"
+    },
+    {
+      "anchor": "end",
+      "time": "01:18:20",
+      "result": "pass"
+    }
+  ],
+  "numbering_conflict": false,
+  "fail_fast_triggered": false
+}

@@ -1,0 +1,13 @@
+ChatGPT-Web-Course-Note-Workflow-v4.9.4 final package checks
+
+identity: PASS (local P03 -> official Lecture 3, Architectures, hyperparameters, 2026-04-06, Tatsu)
+input discovery: PASS (complete Drive folder enumeration: 60/300; exact P03 inputs located)
+video rebuild: PASS (multipart ZIP tested and extracted)
+base index: PASS (60/60 segments, 2672/2672 frames, 2s interval, 90s segments)
+source atom obligation: PASS (23/23 required destinations present)
+semantic coverage: PASS (11/11 events covered)
+slide visual coverage: PASS (110 retained; 28 referenced in Markdown)
+full-frame geometry: PASS (110/110 assets at 1920x1080)
+reader-facing sanitation: PASS
+papers: none explicitly associated with Lecture 3 on Spring 2026 schedule
+main markdown sha256: 58732e280c9e82f04988cd5987ff7296cb3991c03e3bff1d4896be4d52d1415d

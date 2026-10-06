@@ -1,0 +1,84 @@
+{
+  "artifact_basename": "02-PyTorch-einops-resource-accounting-FLOPs-memory-arithmetic-intensity",
+  "workflow_version": "v4.9.4",
+  "chapter_identity": "confirmed",
+  "required_input_discovery": {
+    "status": "pass",
+    "course_directory_items": 60,
+    "possibly_truncated": false,
+    "p02_video_count": 1,
+    "p02_subtitle_count": 1,
+    "p02_xml_count": 0,
+    "p02_archive_count": 0
+  },
+  "base_video_index": {
+    "status": "complete",
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "segments_expected": 52,
+    "segments_completed": 52,
+    "frames_expected": 2321,
+    "frames_actual": 2321,
+    "verify_only": "pass"
+  },
+  "contact_sheet_review": {
+    "status": "pass",
+    "window_max_seconds": 180,
+    "windows_inspected": 26
+  },
+  "source_atoms": {
+    "total": 22,
+    "required": 21,
+    "required_mapped": 21,
+    "status": "pass"
+  },
+  "semantic_coverage": {
+    "status": "pass",
+    "episodes_total": 10,
+    "episodes_covered": 10
+  },
+  "visual_coverage": {
+    "status": "pass",
+    "retained_assets": 19,
+    "merged_states": 8,
+    "coverage_ledger_entries": 27,
+    "full_frame_geometry": [
+      1920,
+      1080
+    ],
+    "contact_windows_inspected": 26
+  },
+  "chapter_level_papers": {
+    "count": 0,
+    "status": "not_applicable",
+    "reason": "No Lecture 2-specific assigned/required paper on the Spring 2026 Schedule."
+  },
+  "reader_facing_sanitation": {
+    "status": "pass",
+    "html_comments": 0,
+    "internal_anchors": 0,
+    "absolute_container_paths": 0,
+    "bad_latex_delimiters": 0,
+    "image_refs": 19,
+    "missing_image_refs": 0
+  },
+  "deterministic_checks": {
+    "status": "pass",
+    "workflow_metadata": "v4.9.4",
+    "artifact_basename": "pass",
+    "retained_assets": "19/19",
+    "full_frame_assets": "19/19 at 1920x1080"
+  },
+  "zip_validation": {
+    "status": "pass",
+    "method": "Trial ZIP built from the final package state passed list/extract checks; final ZIP is also verified externally after creation.",
+    "expected_root": "02-PyTorch-einops-resource-accounting-FLOPs-memory-arithmetic-intensity",
+    "expected_main_markdown": "02-PyTorch-einops-resource-accounting-FLOPs-memory-arithmetic-intensity.md",
+    "expected_coverage_assets": 19
+  },
+  "zip_sha256": "reported externally after final ZIP creation; intentionally not embedded to avoid self-reference",
+  "provenance_observations": [
+    "Recording prompt visibly says B100, but Percy corrects it to H100 at 00:02:12; note uses H100.",
+    "Recording trace/video says O(sqrt(L)) recomputation for sqrt(L) checkpoint spacing, while current lecture_02.py says O(L); note follows the recording and discloses the difference."
+  ]
+}

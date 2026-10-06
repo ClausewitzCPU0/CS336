@@ -1,0 +1,76 @@
+{
+  "workflow_version": "v4.9.4",
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p02",
+      "role": "primary_lecture_video",
+      "term": "Spring 2026",
+      "title": "[P02]斯坦福 CS336：PyTorch.mp4",
+      "drive_file_id": "1c3Lu2Czsy-yskaf3rZJIJacSsBMe941w",
+      "sha256": "6170443071101e2db6b753bc9c0b973ebce8cb2d7b179de1d53a97d844e45218",
+      "duration_seconds": 4641.376145,
+      "frame_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source_id": "local_vtt_p02",
+      "role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "title": "[P02]斯坦福 CS336：PyTorch.vtt",
+      "drive_file_id": "120UVcF-q4qxUq1cfG177266QBUZ8lAon",
+      "sha256": "79453f0a95ace8c48b409162eee692e79b2c76bbd6545ee5942466b613730512",
+      "cue_count": 1425,
+      "use_policy": "Supporting transcript; numerical/formula/identifier claims cross-checked against video or first-party lecture material when material."
+    },
+    {
+      "source_id": "official_schedule_s2026",
+      "role": "first_party_schedule",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "use": "Lecture identity, title, date, instructor, lecture-specific material/reading association."
+    },
+    {
+      "source_id": "official_lecture_02_py",
+      "role": "first_party_lecture_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_02.py",
+      "git_blob_sha": "38171e8cb9656e4086b3f166b3dd5ce8b5731321",
+      "use": "Executable lecture content and quantitative/formula cross-checks."
+    },
+    {
+      "source_id": "official_lecture_02_recording_trace",
+      "role": "first_party_recording_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/var/traces/lecture_02_recording.json",
+      "git_blob_sha": "d5de83a7d1c15144d1aff7b0149957a8a9d372c2",
+      "use": "Recording-version provenance and lecture-material alignment."
+    }
+  ],
+  "other_term_official_sources_used": [],
+  "third_party_generation_sources_used": [],
+  "evaluation_only": [],
+  "chapter_level_papers": {
+    "required_or_assigned": false,
+    "detail": "The Spring 2026 Schedule row for Lecture 2 does not designate a lecture-specific paper, assigned reading, or required reading."
+  },
+  "provenance_precedence": [
+    "For recording-specific wording/state, local video plus lecture_02_recording.json take precedence over the mutable main-branch lecture_02.py.",
+    "Current lecture_02.py remains same-term first-party material for cross-checking concepts and corrected/updated code."
+  ],
+  "observed_same_term_differences": [
+    {
+      "topic": "motivating hardware label",
+      "recording_state": "Visible prompt says 1024 B100s; instructor immediately corrects it verbally to H100.",
+      "current_main": "lecture_02.py now says 1024 H100s.",
+      "note_policy": "Use H100 because the recording itself contains the explicit spoken correction."
+    },
+    {
+      "topic": "activation checkpointing complexity",
+      "recording_state": "sqrt(L) checkpoint line states O(sqrt(L)) activation memory and O(sqrt(L)) recomputation.",
+      "current_main": "lecture_02.py now states O(sqrt(L)) activation memory and O(L) recomputation.",
+      "note_policy": "Preserve the recording version in the lecture note and disclose the difference."
+    }
+  ]
+}

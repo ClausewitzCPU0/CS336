@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p08",
+      "role": "primary_lecture_video",
+      "course_term": "Spring 2026",
+      "title": "[P08]斯坦福 CS336：并行性（二）.mp4",
+      "origin": "Google Drive / local Bilibili-derived course archive",
+      "drive_file_id": "1rWSq59b4MEkTJiftxSg4cBMcAdiN69r1",
+      "local_representation": "multipart ZIP reconstructed to complete MP4",
+      "sha256": "0e361ad98567525e4297a50cea8ed3ab434ec365d73198fa0025bd6907615967",
+      "duration_seconds": 4810.417732,
+      "video_geometry": [
+        1920,
+        1080
+      ],
+      "content_ingested": true
+    },
+    {
+      "source_id": "local_vtt_p08",
+      "role": "unknown_subtitle",
+      "course_term": "Spring 2026",
+      "title": "[P08]斯坦福 CS336：并行性（二）.vtt",
+      "origin": "Google Drive / local course archive",
+      "drive_file_id": "13Pa4W-shYxeMU7JBBpVaXu7bJKtw9FxO",
+      "sha256": "9d687bb400f3ab5b4b9f7a4a8aee5a64dfaf35c2c116e2746e8128310f9b2e38",
+      "content_ingested": true,
+      "policy": "Numbers, formulas, identifiers, conditions, and proper names were cross-checked against visible video state or first-party sources when material."
+    },
+    {
+      "source_id": "official_schedule_s2026",
+      "role": "official_schedule",
+      "course_term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "mirror_evidence_url": "https://github.com/stanford-cs336/stanford-cs336.github.io/blob/main/index.html",
+      "content_ingested": true,
+      "use": "chapter identity, lecture number/title/date/instructor, assignment timing"
+    },
+    {
+      "source_id": "official_lecture08_pdf",
+      "role": "official_lecture_material",
+      "course_term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_08.pdf",
+      "content_ingested": false,
+      "state": "discovered_not_content_ingested",
+      "reason": "First-party same-term material was verified to exist and map to Lecture 8, but the binary PDF could not be fully materialized in this runtime; no PDF-only content was used."
+    },
+    {
+      "source_id": "official_assignment2_systems",
+      "role": "official_coursework",
+      "course_term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/assignment2-systems",
+      "content_ingested": true,
+      "use": "coursework relationship only; the lecture content itself remains grounded in the local same-term recording"
+    },
+    {
+      "source_id": "deepep_official",
+      "role": "external_first_party_identifier_crosscheck",
+      "course_term": null,
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "content_ingested": true,
+      "use": "proper-name/spelling cross-check for DeepEP only; not used to add lecture content"
+    }
+  ],
+  "evaluation_only": [],
+  "excluded": [
+    {
+      "kind": "third_party_notes_or_reuploads",
+      "reason": "Not needed after first-party identity/material discovery and same-term local recording were sufficient."
+    },
+    {
+      "kind": "other_semester_cs336_materials",
+      "reason": "Not needed for this lecture."
+    }
+  ]
+}

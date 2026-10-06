@@ -1,0 +1,38 @@
+{
+  "base_index": {
+    "interval_seconds": 2,
+    "segments": 48,
+    "expected_frames": 2152,
+    "actual_frames": 2152,
+    "verify_only_status": "complete"
+  },
+  "contact_sheet_window_seconds": 180,
+  "contact_sheets_reviewed": [
+    "cs_00",
+    "cs_01",
+    "cs_02",
+    "cs_03",
+    "cs_04",
+    "cs_05",
+    "cs_06",
+    "cs_07",
+    "cs_08",
+    "cs_09",
+    "cs_10",
+    "cs_11",
+    "cs_12",
+    "cs_13",
+    "cs_14",
+    "cs_15",
+    "cs_16",
+    "cs_17",
+    "cs_18",
+    "cs_19",
+    "cs_20",
+    "cs_21",
+    "cs_22",
+    "cs_23"
+  ],
+  "coverage_time_range": "00:00:00-01:11:42",
+  "result": "All 24 contact sheets reviewed; representative distinct slide states retained as full 1920x1080 source frames. Speaker-only Q&A camera states were treated as noninstructional visual repeats."
+}

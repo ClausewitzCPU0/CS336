@@ -1,0 +1,57 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter_identity": {
+    "status": "PASS",
+    "mapping": "P13 -> Lecture 13",
+    "official_title": "Data (sources, datasets)",
+    "term": "Spring 2026",
+    "date": "2026-05-11",
+    "instructor": "Percy Liang"
+  },
+  "required_inputs": {
+    "status": "PASS",
+    "mode": "direct_files",
+    "video": true,
+    "subtitles": true,
+    "multipart_reassembly_required": false
+  },
+  "base_index": {
+    "status": "PASS",
+    "verify_only": "complete",
+    "segments": "55/55",
+    "frames": "2461/2461",
+    "interval_seconds": 2.0
+  },
+  "source_provenance": {
+    "status": "PASS",
+    "same_term_first_party_sources": true,
+    "older_terms_used": false
+  },
+  "semantic_coverage": {
+    "status": "PASS",
+    "episodes": 22,
+    "source_atoms": 29,
+    "required_atoms_verified": 29
+  },
+  "visual_coverage": {
+    "status": "PASS",
+    "retained_full_frame_assets": 30,
+    "omitted_noninstructional_states": 2,
+    "geometry": "1920x1080",
+    "contact_sheet_windows": 28,
+    "max_window_seconds": 180
+  },
+  "paper_packaging": {
+    "status": "PASS",
+    "explicit_chapter_level_required_reading_found": false,
+    "papers_packaged": 0
+  },
+  "reader_facing_sanitation": {
+    "status": "PASS",
+    "deterministic_checker": "course_note_checks.py"
+  },
+  "assignment4_relationship": "Related course assignment; official schedule releases it on Lecture 12, and Lecture 13 explicitly mentions it near the end. It is not represented as a Lecture 13-specific handout."
+}

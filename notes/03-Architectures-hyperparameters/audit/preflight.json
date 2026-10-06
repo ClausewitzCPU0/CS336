@@ -1,0 +1,66 @@
+{
+  "workflow": "ChatGPT-Web-Course-Note-Workflow-v4.9.4",
+  "target_local_chapter": "P03",
+  "input_discovery": {
+    "directory_enumeration": {
+      "requested_limit": 300,
+      "returned_count": 60,
+      "complete": true
+    },
+    "video_direct_drive_size": 303624773,
+    "direct_download_result": "connector 256 MiB limit; multipart fallback used",
+    "multipart_parts": [
+      {
+        "name": "[P03]斯坦福 CS336：架构与超参数.zip.001",
+        "size": 209715200
+      },
+      {
+        "name": "[P03]斯坦福 CS336：架构与超参数.zip.002",
+        "size": 93909777
+      }
+    ],
+    "rebuilt_zip_sha256": "c3bec7b344a2abaa4187fa286b72133fc8bbd424ca8cd7259e73169a8e7957a2",
+    "rebuilt_zip_test": "PASS",
+    "extracted_video_sha256": "19086d47207080db0f7238abb4879ca82a0be1438be481da38a6c51630235b19",
+    "subtitle_sha256": "feade3faffa7c8f5a6af2c070dd5d5dcc860cc26acfca1504ab038378e7f8c15"
+  },
+  "video": {
+    "duration_seconds": 5342.805896,
+    "frame_size": [
+      1920,
+      1080
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "decodable": true
+  },
+  "subtitle": {
+    "format": "WebVTT",
+    "first_cue_seconds": 5.6,
+    "last_cue_seconds": 5349.75,
+    "opening_middle_end_alignment": "PASS"
+  },
+  "identity": {
+    "mapping": "local P03 -> official Lecture 3",
+    "status": "confirmed",
+    "official_title": "Architectures, hyperparameters",
+    "official_date": "2026-04-06",
+    "speaker": "Tatsunori Hashimoto",
+    "evidence": [
+      "Spring 2026 official schedule",
+      "Spring 2026 lecture_03.pdf link",
+      "Stanford Online Spring 2026 Lecture 3 video",
+      "local opening/mid/end video-subtitle alignment"
+    ]
+  },
+  "base_index": {
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "segments_completed": 60,
+    "segments_total": 60,
+    "actual_total_frames": 2672,
+    "expected_total_frames": 2672,
+    "status": "complete",
+    "tail_repair": "seg_0059 rebuilt at absolute timestamps 5310..5342 after fps filter emitted 16/17; verify-only PASS"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4",
+    "manifest_verification": "pass"
+  },
+  "artifact_basename": "15-Mid-post-training-SFT-RLHF",
+  "chapter_identity": {
+    "status": "pass",
+    "local_chapter": "P15",
+    "official_unit": "Lecture 15",
+    "official_title": "Mid/post-training (SFT/RLHF)",
+    "date": "2026-05-18",
+    "lecturer": "Tatsunori Hashimoto"
+  },
+  "required_input_discovery": {
+    "status": "pass",
+    "course_directory_entries_enumerated": 60,
+    "subtitle_present": true,
+    "multipart_parts_present": 2,
+    "video_reconstructed_from_multipart": true,
+    "archive_integrity_test": "pass"
+  },
+  "av_alignment": {
+    "status": "pass",
+    "anchors_checked": [
+      "00:00:10",
+      "00:40:00",
+      "01:18:20"
+    ]
+  },
+  "base_index": {
+    "status": "pass",
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2399,
+    "actual_frames": 2399,
+    "completed_segments": 54,
+    "total_segments": 54,
+    "contact_sheets_inspected": 27,
+    "contact_sheets_prepared": 27
+  },
+  "source_atom_obligations": {
+    "status": "pass",
+    "required_atoms": 61,
+    "mapped_atoms": 61,
+    "destinations_present": 61,
+    "exact_or_structured_atoms": 12,
+    "semantic_review": "pass"
+  },
+  "semantic_coverage": {
+    "status": "pass",
+    "episode_count": 18,
+    "judgment": "All required lecture-content atoms are represented in the reader-facing note; formulas, identifiers, the ~500-sample safety claim, and PPO/DPO derivations were preserved."
+  },
+  "visual_coverage": {
+    "status": "pass",
+    "distinct_entries": 68,
+    "retained": 64,
+    "merged_duplicates": 4,
+    "omitted": 0,
+    "embedded_in_markdown": 26,
+    "all_retained_assets_present": true
+  },
+  "dynamic_state_chain": {
+    "status": "pass",
+    "note": "No interactive terminal/live-coding state chain occurs in this lecture; slide/state transitions and the displayed fine-tuning code are covered."
+  },
+  "full_frame_assets": {
+    "status": "pass",
+    "source_frame_size": [
+      1920,
+      1080
+    ],
+    "asset_count": 64,
+    "mismatch_count": 0,
+    "capture_contract": "full_frame"
+  },
+  "papers": {
+    "status": "pass",
+    "chapter_specific_assigned_reading_found": false,
+    "packaged_pdf_count": 0
+  },
+  "reader_facing_sanitation": {
+    "status": "pass",
+    "html_comments": 0,
+    "internal_anchors": 0,
+    "internal_audit_fields": 0,
+    "absolute_work_paths": 0,
+    "broken_local_images": 0,
+    "code_fences_balanced": true
+  },
+  "mechanical_check": {
+    "status": "pass",
+    "log": "audit/course-note-checks.txt"
+  },
+  "known_issue": {
+    "direct_drive_mp4_download": "Drive connector rejected the 342654550-byte direct MP4 because it exceeded the 268435456-byte transfer limit; the complete .zip.001 + .zip.002 set was downloaded, concatenated, integrity-tested, and used to reconstruct the same lecture video."
+  },
+  "unverified_scope": [
+    "The official lecture_15.pdf identity/existence was confirmed from the Spring 2026 official repository, but no separate page-by-page PDF text diff was performed; note content and visual evidence are grounded in the same-term local lecture video and visible slides."
+  ],
+  "zip_verification": {
+    "status": "pass",
+    "list_test": "pass",
+    "full_extract_test": "pass",
+    "artifact_root": "15-Mid-post-training-SFT-RLHF",
+    "main_markdown": "15-Mid-post-training-SFT-RLHF.md",
+    "retained_assets_after_extract": 64,
+    "sha256_recorded_in_final_report": true
+  }
+}

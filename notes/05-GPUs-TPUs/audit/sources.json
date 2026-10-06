@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p05",
+      "kind": "lecture_video",
+      "title": "[P05] Stanford CS336: GPUs, TPUs",
+      "term": "Spring 2026",
+      "origin": "Bilibili local collection supplied in Google Drive",
+      "drive_file_id": "1qx7paiVY8_Tw5e5qLd_3NkYlXFm3zoT-",
+      "reconstructed_from": [
+        "1TvOEQegbmjzxNuYBfRsXWubSjArZXcGe",
+        "1A1M-cITLUH2haOTfFupeKXzz-_jFrH6e"
+      ],
+      "size_bytes": 318938271,
+      "sha256": "603346b82aad952c61d9020c9a6cb701ca422a8c04a797482e002f69e44ed817",
+      "role": "primary_generation_evidence",
+      "used_for": [
+        "identity",
+        "semantic_content",
+        "visual_evidence",
+        "quantitative_claim_verification"
+      ]
+    },
+    {
+      "source_id": "local_vtt_p05",
+      "kind": "subtitle",
+      "subtitle_role": "unknown_subtitle",
+      "title": "[P05] Stanford CS336: GPUs, TPUs.vtt",
+      "drive_file_id": "11C9Ttkmc2crt50jVZoydcnm73q6IuQly",
+      "size_bytes": 137358,
+      "sha256": "2db777b51ea15b309173e1fb975da4057e38267959968f97d30837f576da8717",
+      "role": "primary_text_track",
+      "used_for": [
+        "semantic_discovery",
+        "timestamps"
+      ],
+      "verification_rule": "critical numbers/formulas/names cross-checked against visible slide or hard subtitles"
+    },
+    {
+      "source_id": "official_schedule_2026",
+      "kind": "official_course_page",
+      "url": "https://cs336.stanford.edu/",
+      "term": "Spring 2026",
+      "role": "identity_and_material_mapping",
+      "used_for": [
+        "official_unit_number",
+        "official_title",
+        "date",
+        "speaker",
+        "lecture_material_link"
+      ]
+    },
+    {
+      "source_id": "official_lecture05_pdf_2026",
+      "kind": "official_lecture_material",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_05.pdf",
+      "term": "Spring 2026",
+      "role": "official_material_discovery",
+      "content_extracted": false,
+      "used_for": [
+        "same-term material identity only"
+      ],
+      "note": "Official 4.96 MB PDF was discovered and linked by the Spring 2026 schedule; local raw extraction was unavailable in this run, so no unsupported PDF-only content was imported."
+    },
+    {
+      "source_id": "stanford_online_lecture05_2026",
+      "kind": "official_recording_metadata",
+      "url": "https://www.youtube.com/watch?v=izZba4UA7iY",
+      "term": "Spring 2026",
+      "role": "identity_cross_check",
+      "used_for": [
+        "official title",
+        "lecture number",
+        "term"
+      ]
+    }
+  ],
+  "evaluation_only": [
+    {
+      "source_id": "official_lecture05_pdf_2025",
+      "kind": "official_other_term_material",
+      "url": "https://cs336.stanford.edu/spring2025-lectures/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf",
+      "term": "Spring 2025",
+      "role": "structure_cross_check_only",
+      "generation_allowed": false,
+      "note": "2026 recording contains additional low-precision material, so the 2025 deck was not treated as evidence for 2026-only claims."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "workflow_version": "v4.9.4",
+  "generation_sources": [
+    {
+      "source_id": "local_video",
+      "role": "primary_video",
+      "path_name": "[P18]斯坦福 CS336：Dan Fu.mp4",
+      "sha256": "e63feeec84ee22835e7ce65b30559354041f3e2d3b4c7e32b88353c60b93c468",
+      "duration_seconds": 4303.789955,
+      "frame_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source_id": "local_vtt",
+      "role": "primary_transcript",
+      "path_name": "[P18]斯坦福 CS336：Dan Fu.vtt",
+      "sha256": "931c59e9d02b3919cf26a642bc04c94193b349068b269c8f1e98d988aa84ca0c",
+      "cue_count": 1533
+    },
+    {
+      "source_id": "official_schedule",
+      "role": "identity_verification",
+      "url": "https://cs336.stanford.edu/",
+      "verified_mapping": "local P18 -> official Lecture 19, Wed June 3 2026, Guest lecture: Dan Fu"
+    },
+    {
+      "source_id": "official_video",
+      "role": "identity_verification",
+      "url": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Guest Lecture: Dan Fu"
+    }
+  ],
+  "excluded_generation_sources": [
+    {
+      "reason": "No separate Spring 2026 Lecture 19 material is linked from the official schedule; unrelated lectures and third-party notes were not used as generation sources."
+    }
+  ]
+}

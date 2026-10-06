@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "term": "Spring 2026",
+  "official_materials": [
+    {
+      "kind": "schedule",
+      "url": "https://cs336.stanford.edu/",
+      "association": "Lecture 6 identity/date/lecturer and Assignment 2 release"
+    },
+    {
+      "kind": "executable_lecture",
+      "url": "https://github.com/stanford-cs336/lectures/blob/15d7589d014172e386d6e750a2ef88dd6d6a79ec/lecture_06.py",
+      "association": "same-day Lecture 6 material; primary content source"
+    },
+    {
+      "kind": "official_recording",
+      "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+      "association": "same-term Lecture 6 recording title"
+    },
+    {
+      "kind": "assignment",
+      "url": "https://github.com/stanford-cs336/assignment2-systems",
+      "association": "Assignment 2: Systems released on Lecture 6 date"
+    }
+  ],
+  "paper_required_reading": "none explicitly associated with Lecture 6",
+  "version_drift_handling": "Pinned same-day lecture commit. Current main not used for changed quantitative hardware values."
+}

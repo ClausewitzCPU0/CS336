@@ -1,0 +1,12 @@
+{"episode_id": "E01", "time_range": "00:05-03:50", "kind": "lecture_context", "title": "从 RLHF 的 overoptimization 到 RLVR", "source_state_id": "motivation", "status": "covered"}
+{"episode_id": "E02", "time_range": "04:00-08:45", "kind": "formula_and_concept", "title": "PPO 理论回顾", "source_state_id": "ppo_theory", "status": "covered"}
+{"episode_id": "E03", "time_range": "08:48-13:05", "kind": "implementation", "title": "PPO 工程复杂性与替代动机", "source_state_id": "ppo_practice", "status": "covered"}
+{"episode_id": "E04", "time_range": "13:06-20:05", "kind": "formula_and_algorithm", "title": "GRPO 推导、实现与初步结果", "source_state_id": "grpo_core", "status": "covered"}
+{"episode_id": "E05", "time_range": "20:06-25:57", "kind": "failure_mode", "title": "GRPO 的 baseline、length bias 与标准差归一化问题", "source_state_id": "grpo_caveats", "status": "covered"}
+{"episode_id": "E06", "time_range": "25:58-38:17", "kind": "case_study", "title": "DeepSeek-R1 / R1-Zero", "source_state_id": "deepseek_r1", "status": "covered"}
+{"episode_id": "E07", "time_range": "39:38-51:19", "kind": "case_study", "title": "Kimi k1.5：data curriculum、RL objective 与 length control", "source_state_id": "kimi", "status": "covered"}
+{"episode_id": "E08", "time_range": "51:20-55:29", "kind": "systems_and_comparison", "title": "RL infra 与 expert iteration ablation", "source_state_id": "kimi_infra", "status": "covered"}
+{"episode_id": "E09", "time_range": "55:30-61:15", "kind": "case_study", "title": "Qwen3：reasoning RL、thinking-mode fusion 与 test-time scaling", "source_state_id": "qwen3", "status": "covered"}
+{"episode_id": "E10", "time_range": "61:16-69:11", "kind": "case_study", "title": "Qwen3-Coder-Next：agentic RLVR 与 reward hacking", "source_state_id": "agentic_rl", "status": "covered"}
+{"episode_id": "E11", "time_range": "69:12-70:23", "kind": "teacher_conclusion", "title": "本讲总结", "source_state_id": "recap", "status": "covered"}
+{"episode_id": "E12", "time_range": "70:24-75:34", "kind": "q_and_a", "title": "thinking mode、mid-training、distillation 与阶段组合", "source_state_id": "qna", "status": "covered"}

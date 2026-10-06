@@ -1,0 +1,123 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter_identity": {
+    "local_label": "P06",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 6,
+    "official_title": "Kernels, Triton",
+    "recording_title": "Lecture 6: Kernels, Triton, XLA",
+    "date": "2026-04-15",
+    "lecturer": "Percy Liang",
+    "term": "Spring 2026",
+    "status": "confirmed"
+  },
+  "input_discovery": {
+    "course_root_drive_id": "1A60z2af31HGh5Tdwm5DuUueDiAddbw__",
+    "enumeration_requested_limit": 300,
+    "enumeration_returned_count": 60,
+    "enumeration_complete": true,
+    "direct_video": {
+      "name": "[P06]斯坦福 CS336： Kernels, Triton, XLA.mp4",
+      "size_bytes": 286930606,
+      "drive_id": "19dNoU-RuEvYiqr7RkzHwDshXqXZEtRkU",
+      "download_status": "connector_limit_413"
+    },
+    "subtitle": {
+      "name": "[P06]斯坦福 CS336： Kernels, Triton, XLA.vtt",
+      "size_bytes": 109533,
+      "drive_id": "173ejZV1t3coLeXHh-ONo2iZyDdQQrfBH",
+      "sha256": "5e822bf7c41f2ce9be3861d8c50c81b5889578579ef1be32491f5950860a0b48"
+    },
+    "multipart": [
+      {
+        "name": "[P06]斯坦福 CS336： Kernels, Triton, XLA.zip.001",
+        "size_bytes": 209715200,
+        "sha256": "6642c545c13976173b9e6506ceaceac450c585f1bf45f6261e85e589b908d504"
+      },
+      {
+        "name": "[P06]斯坦福 CS336： Kernels, Triton, XLA.zip.002",
+        "size_bytes": 77215628,
+        "sha256": "2b833dc45b328ed164572b7d4aa68ecbcdbcc822868d52546936382cd23f2903"
+      }
+    ],
+    "reconstruction": {
+      "zip_sha256": "598b8af3433b24e25492963e2bc5de27bee7abdd2f7a8b9759c208ff2371dbf7",
+      "unzip_test": "PASS",
+      "member_video_size_bytes": 286930606,
+      "video_sha256": "bb3055ee654214486823f58b8eae33abb30d1886a3a21b6d9a51841dca2819c6"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "local-video",
+      "role": "lecture_video",
+      "term": "Spring 2026",
+      "local_label": "P06",
+      "status": "complete",
+      "duration_seconds": 5200.745941,
+      "frame_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source_id": "local-vtt",
+      "role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "local_label": "P06",
+      "status": "complete",
+      "time_range": "00:00:05.240-01:26:36.600"
+    },
+    {
+      "source_id": "official-schedule",
+      "role": "official_schedule",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/"
+    },
+    {
+      "source_id": "lecture-06",
+      "role": "official_lecture_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/15d7589d014172e386d6e750a2ef88dd6d6a79ec/lecture_06.py",
+      "commit": "15d7589d014172e386d6e750a2ef88dd6d6a79ec",
+      "commit_author": "Percy Liang",
+      "commit_timestamp": "2026-04-15T21:54:24Z",
+      "commit_message": "add lecture 6",
+      "version_match": "same-day Spring 2026 source; matches local recording hardware table"
+    },
+    {
+      "source_id": "official-recording",
+      "role": "official_recording",
+      "term": "Spring 2026",
+      "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg"
+    },
+    {
+      "source_id": "assignment2",
+      "role": "related_assignment",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/assignment2-systems"
+    }
+  ],
+  "paper_reading_packaging": {
+    "explicit_chapter_paper_or_required_reading_found": false,
+    "papers_directory_required": false,
+    "note": "Assignment 2 is explicitly released on Lecture 6 date, but it is an assignment handout/codebase rather than a chapter-level paper/required reading."
+  },
+  "base_index": {
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2601,
+    "actual_frames": 2601,
+    "segments": "58/58",
+    "status": "complete",
+    "repair_note": "Final segment required one targeted cache repair for the 5200 s frame because container/audio duration and ffmpeg fps termination differed by one frame; verify-only then passed."
+  },
+  "material_version_notes": {
+    "primary_lecture_material": "Pinned to 2026-04-15 commit 15d7589d014172e386d6e750a2ef88dd6d6a79ec.",
+    "current_main_drift": "Current main later changed some B200 bandwidth values. The final note uses the same-day commit and local recording values for lecture fidelity.",
+    "recording_title_note": "Stanford Online title includes XLA; official schedule and executable lecture title are Kernels, Triton. No separate XLA teaching unit was found in the local video/subtitle or same-day lecture_06.py."
+  }
+}

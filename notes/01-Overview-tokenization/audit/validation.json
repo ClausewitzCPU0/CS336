@@ -1,0 +1,16 @@
+{
+  "chapter_identity_preflight": "PASS",
+  "required_input_discovery": "PASS",
+  "multipart_archive_test": "PASS",
+  "subtitle_video_pairing": "PASS",
+  "official_material_discovery": "PASS",
+  "source_provenance_freeze": "PASS",
+  "base_index": "PASS 53/53 segments, 2383/2383 frames",
+  "source_atom_review": "PASS 30/30 required atoms represented",
+  "episode_review": "PASS 16/16 episodes covered",
+  "visual_coverage": "PASS 46 retained full-frame assets at 1920x1080",
+  "reader_facing_sanitation": "PASS",
+  "deterministic_checker": "PASS",
+  "known_resolved_issue": "Tail-segment helper emitted 42/43 samples; absolute t=4764.0s source frame added and unmodified --verify-only subsequently passed.",
+  "unverified_or_missing_required_sources": []
+}

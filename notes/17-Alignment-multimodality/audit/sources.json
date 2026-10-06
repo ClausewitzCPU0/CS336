@@ -1,0 +1,53 @@
+{
+  "workflow_version": "v4.9.4",
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p17",
+      "kind": "video",
+      "role": "primary_lecture_video",
+      "title": "[P17]斯坦福 CS336：对齐 - 多模态.mp4",
+      "term": "Spring 2026",
+      "drive_file_id": "1A-F7UStTXDv8dlUsJyLBuuhnYj9J1f1J",
+      "size_bytes": 255430691,
+      "sha256": "fa49a2b3cd845b22669e9c8bd892091f17c57ebcd4db3db3392c83bcca7d2102",
+      "identity_status": "confirmed_against_official_schedule_and_recording"
+    },
+    {
+      "source_id": "local_vtt_p17",
+      "kind": "subtitle",
+      "role": "unknown_subtitle",
+      "title": "[P17]斯坦福 CS336：对齐 - 多模态.vtt",
+      "term": "Spring 2026",
+      "drive_file_id": "1MBgdRtNUw6lCqUkttRWdpuUaRDEXjqPa",
+      "size_bytes": 91667,
+      "sha256": "51cd3b2e559a0a261024f42277a0abe2d01672edc5c2d87983351d31c5c3a402",
+      "verification_note": "High-risk numbers/names were cross-checked against video hard subtitles and/or official lecture material."
+    },
+    {
+      "source_id": "official_schedule_2026",
+      "kind": "web",
+      "role": "official_schedule",
+      "url": "https://cs336.stanford.edu/",
+      "term": "Spring 2026",
+      "identity_fact": "Lecture 17 | Wed May 27 | Alignment - multimodality [Percy] | lecture_17.py"
+    },
+    {
+      "source_id": "official_lecture_17_py",
+      "kind": "executable_lecture",
+      "role": "official_material",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_17.py",
+      "term": "Spring 2026"
+    },
+    {
+      "source_id": "stanford_online_lecture17",
+      "kind": "video_web",
+      "role": "first_party_recording_corroboration",
+      "url": "https://www.youtube.com/watch?v=26FtD08ZpOU",
+      "term": "Spring 2026",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 17: Alignment - Multimodality"
+    }
+  ],
+  "evaluation_only": [],
+  "chapter_specific_required_readings": [],
+  "chapter_specific_reading_status": "No paper/assigned reading/required reading is explicitly associated with Lecture 17 on the Spring 2026 schedule; papers linked inside lecture_17.py are supplementary lecture references only."
+}

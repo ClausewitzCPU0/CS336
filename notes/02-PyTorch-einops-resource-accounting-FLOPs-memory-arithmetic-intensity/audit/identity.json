@@ -1,0 +1,48 @@
+{
+  "status": "confirmed",
+  "target_local_chapter": "P02",
+  "mapping": {
+    "local_chapter": "P02",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 2,
+    "official_title": "PyTorch (einops), resource accounting (FLOPs, memory, arithmetic intensity)",
+    "date": "2026-04-01",
+    "instructor": "Percy Liang",
+    "course_term": "Spring 2026"
+  },
+  "input_pairing": {
+    "video": "[P02]斯坦福 CS336：PyTorch.mp4",
+    "subtitle": "[P02]斯坦福 CS336：PyTorch.vtt",
+    "xml": null,
+    "chapter_archive": null,
+    "multipart_archive": null,
+    "directory_item_count": 60,
+    "directory_listing_truncated": false
+  },
+  "evidence": [
+    {
+      "kind": "video_probe",
+      "detail": "H.264 1920x1080; duration 4641.376145 s; video decodes successfully."
+    },
+    {
+      "kind": "subtitle_timeline",
+      "detail": "1425 VTT cues from 00:00:05.040 through the lecture ending near 01:17:21; timestamps align with sampled video states."
+    },
+    {
+      "kind": "video_content",
+      "detail": "Opening/middle/end samples cover resource accounting, MFU/arithmetic intensity, and the final lecture summary."
+    },
+    {
+      "kind": "subtitle_end",
+      "detail": "At 01:17:16.530 the speaker says the next lecture is Tatsu on architectures, matching the official Lecture 3 topic and local P03 ordering."
+    },
+    {
+      "kind": "official_schedule",
+      "detail": "Spring 2026 Schedule lists Lecture 2 on Wed April 1 with Percy and the exact PyTorch/einops/resource-accounting title."
+    },
+    {
+      "kind": "official_material",
+      "detail": "stanford-cs336/lectures contains lecture_02.py plus var/traces/lecture_02_recording.json for the recording version."
+    }
+  ]
+}

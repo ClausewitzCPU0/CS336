@@ -1,0 +1,5 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 15-Mid-post-training-SFT-RLHF
+PASS: retained coverage assets present 64/64
+PASS: full-frame coverage assets 64/64 at 1920x1080

@@ -1,0 +1,37 @@
+{
+  "workflow": "ChatGPT-Web-Course-Note-Workflow v4.9.4",
+  "artifact_basename": "09-Scaling-laws",
+  "required_input_discovery": {
+    "drive_folder_items_returned": 60,
+    "requested_top_k": 300,
+    "truncation_detected": false,
+    "exact_mp4": true,
+    "exact_vtt": true,
+    "multipart_parts": 2,
+    "xml_found": false,
+    "xml_required": false
+  },
+  "video_reconstruction": {
+    "direct_mp4_fetch": "failed: 277041864 bytes exceeds 268435456-byte connector limit",
+    "fallback": "concatenated exact P09 .zip.001 + .zip.002",
+    "zip_integrity": "PASS",
+    "video_sha256": "6c0c99796837e11e5ca7b7df46c364816a523764441574a8772b39f535fcd826"
+  },
+  "chapter_identity": "PASS: P09 -> Spring 2026 Lecture 9 — Scaling laws; visible recording title Scaling Laws - Basics; Tatsu; 2026-04-27",
+  "base_index": "PASS: 52/52 segments, 2339/2339 frames at 2 s interval after explicit EOF frame repair",
+  "source_atoms": 28,
+  "events": 28,
+  "coverage": {
+    "retained": 51,
+    "merged_duplicates": 1,
+    "asset_geometry": "51/51 at 1920x1080"
+  },
+  "official_materials": {
+    "schedule": "confirmed",
+    "lecture_09_pdf": "discovered; raw binary not renderable in current web interface",
+    "chapter_paper_required": false,
+    "assignment_3_packaged": false
+  },
+  "reader_facing_checks": "PASS",
+  "status": "READY_FOR_PACKAGE"
+}

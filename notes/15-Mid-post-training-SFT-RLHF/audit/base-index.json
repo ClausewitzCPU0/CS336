@@ -1,0 +1,16 @@
+{
+  "source_id": "video_local_p15",
+  "interval_seconds": 2,
+  "segment_seconds": 90,
+  "duration_seconds": 4797.46941,
+  "expected_total_frames": 2399,
+  "actual_total_frames": 2399,
+  "completed_segments": 54,
+  "expected_segments": 54,
+  "status": "complete",
+  "verify_only_status": "complete",
+  "contact_sheet_window_seconds": 180,
+  "contact_sheets_prepared": 27,
+  "contact_sheets_inspected": 27,
+  "inspection_status": "complete"
+}

@@ -1,0 +1,42 @@
+{
+  "drive_folder": "cs_courses\\AI\\CS336\\",
+  "connector_enumeration": {
+    "requested_top_k": 300,
+    "returned_items": 60,
+    "complete_for_connector": true
+  },
+  "target_matches": [
+    {
+      "name": "[P05]斯坦福 CS336：GPUs, TPUs.vtt",
+      "drive_id": "11C9Ttkmc2crt50jVZoydcnm73q6IuQly",
+      "size_bytes": 137358
+    },
+    {
+      "name": "[P05]斯坦福 CS336：GPUs, TPUs.zip.001",
+      "drive_id": "1TvOEQegbmjzxNuYBfRsXWubSjArZXcGe",
+      "size_bytes": 209715200
+    },
+    {
+      "name": "[P05]斯坦福 CS336：GPUs, TPUs.zip.002",
+      "drive_id": "1A1M-cITLUH2haOTfFupeKXzz-_jFrH6e",
+      "size_bytes": 109223271
+    },
+    {
+      "name": "[P05]斯坦福 CS336：GPUs, TPUs.mp4",
+      "drive_id": "1qx7paiVY8_Tw5e5qLd_3NkYlXFm3zoT-",
+      "size_bytes": 318938271
+    }
+  ],
+  "direct_mp4_fetch": {
+    "status": "connector_size_limit",
+    "limit_bytes": 268435456
+  },
+  "multipart_reconstruction": {
+    "status": "passed",
+    "zip_test": "passed",
+    "archive_member_count": 1,
+    "member_size_bytes": 318938271,
+    "reconstructed_video_sha256": "603346b82aad952c61d9020c9a6cb701ca422a8c04a797482e002f69e44ed817"
+  },
+  "subtitle_sha256": "2db777b51ea15b309173e1fb975da4057e38267959968f97d30837f576da8717"
+}

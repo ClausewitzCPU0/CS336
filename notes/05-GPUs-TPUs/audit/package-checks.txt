@@ -1,0 +1,15 @@
+ChatGPT-Web-Course-Note-Workflow v4.9.4 final checks
+Artifact: 05-GPUs-TPUs
+Identity: PASS — P05 -> Lecture 5, GPUs, TPUs (Spring 2026, 2026-04-13, Tatsu Hashimoto)
+Input discovery: PASS — Drive root enumeration 60/300; VTT + multipart archive + direct MP4 entry found
+Multipart reconstruction: PASS — ZIP test passed; reconstructed MP4 318,938,271 bytes
+Base index: PASS — 2360/2360 frames, 53/53 segments, interval=2s, segment=90s
+Base index targeted repair: segment 52 endpoint repaired with exact 2s anchors, verify-only PASS
+Contact-sheet inspection: PASS — 27/27 fixed-window sheets, full time axis inspected
+Source atoms: PASS — 30/30 required destinations present
+Semantic episodes: PASS — 19/19 covered
+Slide coverage: PASS — 57 retained, 2 merged duplicates, 1 noninstructional omission
+Full-frame assets: PASS — 57/57 at 1920x1080, mismatch=0, no crop/scale/pad
+Reader-facing sanitation: PASS
+Chapter-level assigned reading/paper: none listed by official Spring 2026 Schedule
+Unverified scope: raw bytes/text of official Spring 2026 lecture_05.pdf were not extracted; no PDF-only content used.

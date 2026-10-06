@@ -1,0 +1,12 @@
+{
+  "interval_seconds": 2.0,
+  "segment_seconds": 90.0,
+  "segments_expected": 52,
+  "segments_complete": 52,
+  "expected_total_frames": 2312,
+  "actual_total_frames": 2312,
+  "status": "complete",
+  "verify_only": "PASS",
+  "source_video_sha256": "1308d29d959b7d56ec8e6357e5be6a92cf0ab3ebac188023cfe8339b5e7f7963",
+  "manifest_source": "/mnt/data/cs336_p11_work/cache/base2s/manifest.json"
+}

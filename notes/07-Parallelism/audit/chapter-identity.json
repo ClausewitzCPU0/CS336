@@ -1,0 +1,47 @@
+{
+  "target_local_chapter": "P07",
+  "status": "confirmed",
+  "mapping": {
+    "local_label": "P07",
+    "local_title": "斯坦福 CS336：并行性（一）",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 7,
+    "official_title": "Parallelism",
+    "date": "2026-04-20",
+    "speaker": "Percy Liang",
+    "term": "Spring 2026"
+  },
+  "evidence": [
+    "Local VTT opens with 'today we're going to talk about parallelism' and transitions from single-GPU kernels to multi-GPU parallelism.",
+    "Local video/VTT covers collectives, GPU interconnects, NCCL, torch.distributed, communication benchmarking, data/tensor/pipeline parallelism, matching lecture_07.py.",
+    "Official Spring 2026 schedule row 7 is Mon April 20, Parallelism [Percy], with lecture_07.py; row 8 is a separate Parallelism lecture [Tatsu].",
+    "Drive directory enumeration returned 60/300 direct children; exact P07 inputs are VTT, MP4, and multipart ZIP .001/.002."
+  ],
+  "input_discovery": {
+    "drive_returned_count": 60,
+    "drive_limit": 300,
+    "complete_for_connector": true,
+    "direct_mp4_bytes": 337000371,
+    "multipart_parts": [
+      {
+        "name": "[P07]斯坦福 CS336：并行性（一）.zip.001",
+        "bytes": 209715200
+      },
+      {
+        "name": "[P07]斯坦福 CS336：并行性（一）.zip.002",
+        "bytes": 127285375
+      }
+    ],
+    "multipart_crc_test": "PASS",
+    "materialization_note": "Direct MP4 exceeded connector raw-download limit in this run; source video was reconstructed from the complete multipart ZIP, whose sole member is the matching MP4."
+  },
+  "base_index": {
+    "interval_seconds": 2,
+    "segment_seconds": 90,
+    "expected_frames": 2432,
+    "actual_frames": 2432,
+    "segments": 55,
+    "verify_only_status": "complete",
+    "repair_note": "The workflow indexer produced one frame rather than two in the final 2.337664-second segment due to fps/EOF behavior. Two exact-timestamp 240px cache frames at 4860s and 4862s were generated from the unchanged source video; verify-only then passed 2432/2432."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_PREPACKAGE",
+  "artifact_basename": "12-Evaluation",
+  "workflow_version": "v4.9.4",
+  "chapter_identity": {
+    "status": "confirmed",
+    "mapping": "P12 -> Lecture 12 — Evaluation",
+    "input_pairing": "consistent",
+    "fail_fast_triggered": false
+  },
+  "drive_discovery": {
+    "course_directory_items_returned": 60,
+    "requested_top_k": 300,
+    "enumeration_complete_for_connector": true,
+    "p12_inputs_found": 4,
+    "multipart_parts_found": 2,
+    "multipart_archive_test": "PASS"
+  },
+  "base_index": {
+    "segments": "53/53",
+    "frames": "2358/2358",
+    "verify_only": "PASS",
+    "tail_repair_documented": true
+  },
+  "content_obligations": {
+    "source_atoms": "54/54",
+    "episodes": "24/24",
+    "markdown_image_references": "35/35"
+  },
+  "visual_coverage": {
+    "retained_assets": 66,
+    "expected_retained_assets": 66,
+    "full_frame_dimensions": "1920x1080",
+    "full_frame_check": "66/66 PASS"
+  },
+  "papers": {
+    "bundled": 0,
+    "reason": "No explicit Spring 2026 Lecture 12 assigned/required reading PDF identified."
+  },
+  "reader_facing_checks": "PASS",
+  "workflow_metadata_check": "PASS",
+  "artifact_basename_check": "PASS",
+  "markdown_sha256": "bcc4bd5a5bb443fe8f5a334ad34ce3714d7bc65d76de46a81f194a7846cb1dc0",
+  "zip_integrity": "verified after archive creation; reported outside the recursive package audit"
+}

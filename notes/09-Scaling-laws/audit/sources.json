@@ -1,0 +1,69 @@
+{
+  "chapter_identity": {
+    "local_label": "P09",
+    "official_unit": "Lecture 9",
+    "official_title": "Scaling laws",
+    "recording_title": "Scaling Laws - Basics",
+    "date": "2026-04-27",
+    "lecturer": "Tatsunori Hashimoto",
+    "status": "confirmed"
+  },
+  "sources": [
+    {
+      "source_id": "local_video",
+      "role": "original_video",
+      "title": "[P09]斯坦福 CS336：缩放定律.mp4",
+      "term": "Spring 2026",
+      "sha256": "6c0c99796837e11e5ca7b7df46c364816a523764441574a8772b39f535fcd826",
+      "duration_seconds": 4676.647324,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "reconstruction": "Drive multipart ZIP .001+.002; unzip -t PASS; content hash recorded"
+    },
+    {
+      "source_id": "local_vtt",
+      "role": "unknown_subtitle",
+      "title": "[P09]斯坦福 CS336：缩放定律.vtt",
+      "language": "en-US",
+      "sha256": "3113245567430f16d9e2438e8a8a7f27302962b465d0ddcc75f1c54cdacce17a",
+      "coverage": "00:00:06.040–01:17:53.510"
+    },
+    {
+      "source_id": "official_schedule",
+      "role": "same_term_official",
+      "title": "CS336 Spring 2026 course schedule",
+      "url": "https://cs336.stanford.edu/",
+      "evidence": "Lecture 9 | Mon April 27 | Scaling laws [Tatsu] | lecture_09.pdf"
+    },
+    {
+      "source_id": "official_slides",
+      "role": "same_term_official",
+      "title": "lecture_09.pdf",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_09.pdf",
+      "use": "identity/material discovery; slide content independently visible in original video",
+      "retrieval_note": "Official file identity and same-term association confirmed. The raw GitHub PDF was served as application/octet-stream and could not be rendered through the current web interface; lecture-slide content used in the note was verified from the original video frames instead."
+    },
+    {
+      "source_id": "official_repo",
+      "role": "same_term_official",
+      "title": "stanford-cs336/lectures",
+      "url": "https://github.com/stanford-cs336/lectures"
+    }
+  ],
+  "excluded_or_not_packaged": [
+    {
+      "item": "Assignment 3: Scaling",
+      "reason": "Official schedule releases it with Lecture 10, not Lecture 9; not forced into this lecture note."
+    },
+    {
+      "item": "chapter-level paper",
+      "reason": "No Lecture-9-specific assigned/required paper identified on the official schedule."
+    },
+    {
+      "item": "XML/danmaku",
+      "reason": "No exact P09 XML was present in the complete 60-item Drive folder listing; XML is optional in v4.9.4."
+    }
+  ]
+}

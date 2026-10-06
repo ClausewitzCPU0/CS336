@@ -1,0 +1,48 @@
+{
+  "status": "confirmed",
+  "target_local_chapter": "P05",
+  "mapping": {
+    "local_chapter": "P05",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 5,
+    "official_title": "GPUs, TPUs"
+  },
+  "course": {
+    "name": "CS336: Language Modeling from Scratch",
+    "term": "Spring 2026"
+  },
+  "date": "2026-04-13",
+  "speaker": "Tatsunori Hashimoto",
+  "evidence": [
+    {
+      "type": "local_video_title_frame",
+      "timestamp": "00:00:08",
+      "visible_text": "Lecture 5 / GPUs / CS336 / Tatsu H"
+    },
+    {
+      "type": "local_subtitle_opening",
+      "timestamp": "00:00:05-00:00:20",
+      "summary": "Systems portion begins with GPUs, parallelization and inference."
+    },
+    {
+      "type": "official_schedule",
+      "url": "https://cs336.stanford.edu/",
+      "summary": "Lecture 5, Mon April 13, GPUs, TPUs [Tatsu], lecture 5.pdf."
+    },
+    {
+      "type": "official_recording",
+      "url": "https://www.youtube.com/watch?v=izZba4UA7iY",
+      "summary": "Stanford Online title identifies Spring 2026 Lecture 5: GPUs, TPUs."
+    },
+    {
+      "type": "adjacency_check",
+      "summary": "Local P04/P06 titles align with official Lecture 4/Lecture 6, so no numbering gap or offset exists around P05."
+    }
+  ],
+  "input_pairing": {
+    "video": "confirmed",
+    "subtitle": "confirmed",
+    "multipart_archive": "confirmed"
+  },
+  "fail_fast_triggered": false
+}

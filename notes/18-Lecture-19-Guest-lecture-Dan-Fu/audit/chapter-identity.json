@@ -1,0 +1,22 @@
+{
+  "status": "confirmed",
+  "local_chapter": "18",
+  "local_title": "Dan Fu",
+  "official_unit_label": "Lecture",
+  "official_unit_number": 19,
+  "official_title": "Guest lecture: Dan Fu",
+  "official_date": "2026-06-03",
+  "speaker": "Dan Fu",
+  "talk_title_visible_in_video": "Inference: Turning Electricity into Intelligence",
+  "mapping_basis": [
+    "official Spring 2026 schedule",
+    "Stanford Online Spring 2026 video title/duration",
+    "local title slide",
+    "local VTT opening/ending",
+    "video-subtitle duration match"
+  ],
+  "numbering_note": "Official Lecture 18 is Daniel Selsam, so the local P18 sequence is not 1:1 with the official lecture number at this point.",
+  "video_duration_seconds": 4303.789955,
+  "subtitle_first_cue": "00:00:05.200",
+  "subtitle_last_cue": "01:11:35.860"
+}

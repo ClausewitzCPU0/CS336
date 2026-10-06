@@ -1,0 +1,54 @@
+{
+  "artifact_basename": "08-Parallelism",
+  "phase": "final-gate",
+  "chapter_identity": "confirmed",
+  "base_index": {
+    "segments": "54/54",
+    "frames": "2406/2406"
+  },
+  "contact_sheets": {
+    "prepared": 27,
+    "inspected": 27
+  },
+  "source_atoms": {
+    "total": 51,
+    "required": 51,
+    "covered_required": 51
+  },
+  "slide_visual_states": {
+    "total": 74,
+    "retained": 70,
+    "merged": 4
+  },
+  "full_frame_contract": {
+    "expected_geometry": [
+      1920,
+      1080
+    ],
+    "retained_assets_expected": 70
+  },
+  "final_checker_status": "pending",
+  "targeted_repairs": [
+    "Added exact source atoms for the ZeRO memory-accounting table and the final parallelism overview table after final-note exact-claim audit."
+  ],
+  "semantic_coverage_status": "pass",
+  "reader_facing_sanitation": "pass",
+  "workflow_manifest_check": "pass",
+  "workflow_checker": {
+    "run": 1,
+    "status": "pass",
+    "reader_facing_deterministic_checks": "pass",
+    "workflow_metadata": "v4.9.4",
+    "artifact_basename": "08-Parallelism",
+    "retained_assets": "70/70",
+    "full_frame_assets": "70/70 at 1920x1080"
+  },
+  "chapter_level_papers": {
+    "count": 0,
+    "reason": "No Lecture 8 paper/assigned reading/required reading was explicitly associated by the Spring 2026 schedule. The official Lecture 8 PDF is lecture material, not a paper/reading, and was not content-ingested."
+  },
+  "unverified_ranges": [
+    "Official lecture_08.pdf binary content was not materialized/read; it was used only as a discovered same-term material mapping."
+  ],
+  "final_gate_status": "pass"
+}

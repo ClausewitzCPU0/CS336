@@ -1,0 +1,15 @@
+{
+  "target_local_chapter": "P12",
+  "mapping": "P12 -> Lecture 12 — Evaluation",
+  "status": "confirmed",
+  "evidence": [
+    "Local VTT opens with: So today, we are going to talk about evaluation.",
+    "Start/middle/end frames align with the same evaluation lecture and transcript.",
+    "Spring 2026 official schedule lists Lecture 12 on Wed May 6 as Evaluation [Percy].",
+    "Spring 2026 official lecture_12.py declares Lecture 12: evaluation and matches the local section sequence."
+  ],
+  "duration_video_seconds": 4714.077959,
+  "subtitle_end_seconds": 4710.71,
+  "input_pairing": "consistent",
+  "fail_fast_triggered": false
+}

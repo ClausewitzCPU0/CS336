@@ -1,0 +1,35 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "artifact_basename": "04-Attention-alternatives-and-mixture-of-experts",
+  "chapter_identity": "confirmed",
+  "required_input_discovery": "PASS",
+  "direct_mp4_materialization": "FAILED_PLATFORM_LIMIT_268435456_BYTES",
+  "multipart_fallback": "PASS_COMPLETE_001_002_RECONSTRUCTION",
+  "base_index": "PASS_2591_OF_2591",
+  "contact_sheet_windows": "PASS_29_OF_29_INSPECTED",
+  "source_atoms": {
+    "required": 48,
+    "covered": 48,
+    "status": "PASS"
+  },
+  "semantic_episodes": {
+    "count": 14,
+    "status": "PASS"
+  },
+  "visual_coverage": "PASS_57_RETAINED_FULL_FRAME_ASSETS",
+  "official_materials": {
+    "schedule": "verified",
+    "lecture_04_pdf_metadata": "verified",
+    "lecture_04_pdf_body": "not_materialized_due_connector_binary_limit",
+    "chapter_level_assigned_reading": "none_listed_on_schedule_row"
+  },
+  "reader_facing_sanitation": "PASS",
+  "mechanical_checks": "PASS",
+  "zip_validation": "PASS_AFTER_FINAL_BUILD",
+  "source_atom_semantic_coverage": "PASS_48_OF_48_REQUIRED",
+  "paper_reading_contract": "PASS_NO_SEPARATE_ASSIGNED_READING_ON_LECTURE_4_SCHEDULE_ROW",
+  "workflow_observation": "FFmpeg fps=1/2 omitted the final 5180.0s sample in the last 50.312336s segment; the missing lattice frame was explicitly generated and verify-only confirmed 2591/2591."
+}

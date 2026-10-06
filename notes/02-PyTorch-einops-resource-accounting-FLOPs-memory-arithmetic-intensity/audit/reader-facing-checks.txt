@@ -1,0 +1,5 @@
+PASS no_html_comments
+PASS no_internal_anchor
+PASS no_absolute_container_paths
+PASS no_bad_latex_delimiters
+PASS image refs 19 all exist

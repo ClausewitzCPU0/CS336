@@ -1,0 +1,37 @@
+{
+  "status": "confirmed",
+  "local_chapter": "P14",
+  "official_mapping": {
+    "unit": "Lecture",
+    "number": 14,
+    "title": "Data (filtering, deduplication, mixing, synthetic data)",
+    "material_title": "Lecture 14: Data II",
+    "date": "2026-05-13",
+    "lecturer": "Percy Liang",
+    "term": "Spring 2026"
+  },
+  "evidence": [
+    {
+      "source": "local_vtt_p14",
+      "observation": "Opening says this is the second day on data, recaps data provenance/TOS/copyright, then announces transformation, filtering, deduplication, mixing, and synthetic data."
+    },
+    {
+      "source": "official_schedule",
+      "observation": "Spring 2026 row 14 is Wed May 13, Data (filtering, deduplication, mixing, synthetic data) [Percy], linked to lecture_14.py."
+    },
+    {
+      "source": "official_lecture_14",
+      "observation": "Heading is Lecture 14: Data II; outline and examples match the local video/transcript across beginning, middle, and end."
+    },
+    {
+      "source": "local_video_p14",
+      "observation": "1920x1080 executable-lecture recording; sampled states match lecture_14.py topics and ordering."
+    }
+  ],
+  "input_pairing": {
+    "video_and_subtitle": "matched",
+    "multipart_zip_integrity": "passed",
+    "subtitle_timeline": "matched through lecture close"
+  },
+  "failure_conditions_found": []
+}

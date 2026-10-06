@@ -1,0 +1,9 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 06-Kernels-Triton
+PASS: retained coverage assets present 30/30
+PASS: full-frame coverage assets 30/30 at 1920x1080
+
+Sanitation grep:
+PASS: no forbidden reader-facing markers or internal paths
+PASS: math delimiters use $...$ / $$...$$

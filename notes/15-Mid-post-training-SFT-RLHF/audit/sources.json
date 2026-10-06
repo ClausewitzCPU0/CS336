@@ -1,0 +1,116 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "target": {
+    "local_label": "P15",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 15
+  },
+  "discovery": {
+    "drive_course_folder": "cs_courses\\AI\\CS336\\",
+    "directory_enumeration": {
+      "requested_top_k": 300,
+      "returned_count": 60,
+      "complete_for_connector": true
+    },
+    "exact_inputs": [
+      {
+        "name": "[P15]斯坦福 CS336：Mid_Post-Training.vtt",
+        "size_bytes": 136879,
+        "drive_file_id": "1sIa0Aib7VqMLdn7lczecu-31jnNj_-bB"
+      },
+      {
+        "name": "[P15]斯坦福 CS336：Mid_Post-Training.zip.001",
+        "size_bytes": 209715200,
+        "drive_file_id": "1X2BnT8hLWn2voF-DuKRJAC6pqqtd4qwy"
+      },
+      {
+        "name": "[P15]斯坦福 CS336：Mid_Post-Training.zip.002",
+        "size_bytes": 132939564,
+        "drive_file_id": "1olvqnEkXWMU0WldrZTAfLa9sflzcVcTQ"
+      },
+      {
+        "name": "[P15]斯坦福 CS336：Mid_Post-Training.mp4",
+        "size_bytes": 342654550,
+        "drive_file_id": "1l1RpYsg5MBO-xxukk0-AuywwovPfL1yx",
+        "note": "Direct connector download exceeded the 256 MiB transfer limit; identical video was reconstructed from the complete multipart ZIP."
+      }
+    ]
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "video_local_p15",
+      "role": "original_video",
+      "term": "Spring 2026",
+      "title": "[P15]斯坦福 CS336：Mid_Post-Training.mp4",
+      "local_path": "/tmp/cs336p15/p15.mp4",
+      "sha256": "d43b3cff6f90bd7f82b800b2d8f30d62c4164619697a6e5524e81338a6738ead",
+      "duration_seconds": 4797.46941,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "provenance": "Reconstructed byte-for-byte content from .zip.001 + .zip.002; archive integrity test passed."
+    },
+    {
+      "source_id": "subtitle_local_p15",
+      "role": "unknown_subtitle",
+      "term": "Spring 2026",
+      "title": "[P15]斯坦福 CS336：Mid_Post-Training.vtt",
+      "local_path": "/tmp/cs336p15/p15.vtt",
+      "sha256": "600ffe6aa41fe12639739f79a1ed3991a36e1e1b12f9c79c18bf57deff1e7205",
+      "timeline": "00:00:05.240–01:19:48.060",
+      "note": "Used as text track; technical terms, formulas, numbers, negation, and conclusions were cross-checked against visible slides/video where material."
+    },
+    {
+      "source_id": "hard_subtitles",
+      "role": "hard_subtitle",
+      "term": "Spring 2026",
+      "title": "Hard subtitles embedded in local lecture video",
+      "source_ref": "video_local_p15",
+      "note": "Independent cross-check evidence for selected transcript claims; not treated as unconditionally authoritative."
+    },
+    {
+      "source_id": "official_schedule_2026",
+      "role": "official_schedule",
+      "term": "Spring 2026",
+      "title": "CS336: Language Modeling from Scratch — Spring 2026 schedule",
+      "url": "https://cs336.stanford.edu/",
+      "verified_claim": "Lecture 15, Mon May 18, Mid/post-training (SFT/RLHF) [Tatsu], lecture_15.pdf"
+    },
+    {
+      "source_id": "official_lecture15_pdf",
+      "role": "official_lecture_material",
+      "term": "Spring 2026",
+      "title": "lecture_15.pdf",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_15.pdf",
+      "github_blob_sha": "31ace8c6d1c704386557629d5bee0e0e22850dcd",
+      "size_bytes": 6395151,
+      "usage": "Identity/material discovery only; note content was grounded in the local same-term video and visible slides rather than claiming PDF-only details."
+    },
+    {
+      "source_id": "official_stanford_online_video",
+      "role": "official_recording",
+      "term": "Spring 2026",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 15: Mid/Post-Training",
+      "url": "https://www.youtube.com/watch?v=2oH6PWPrYFo",
+      "usage": "Identity cross-check."
+    },
+    {
+      "source_id": "official_lectures_repo",
+      "role": "official_repository",
+      "term": "Spring 2026",
+      "title": "stanford-cs336/lectures",
+      "url": "https://github.com/stanford-cs336/lectures",
+      "usage": "Official material discovery."
+    }
+  ],
+  "evaluation_only": [],
+  "paper_packaging": {
+    "chapter_specific_assigned_reading_found": false,
+    "papers_directory_expected_empty": true,
+    "reason": "The Spring 2026 schedule row for Lecture 15 lists lecture_15.pdf as course material but no paper/assigned reading/required reading. Assignment 5 is listed on Lecture 16, not Lecture 15."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "workflow_version": "v4.9.4",
+  "artifact_basename": "10-Inference",
+  "chapter_identity": {
+    "local_chapter": "P10",
+    "official_lecture": 10,
+    "official_title": "Inference",
+    "instructor": "Percy Liang",
+    "date": "2026-04-29",
+    "status": "PASS"
+  },
+  "input_integrity": {
+    "multipart_reconstruction": "PASS",
+    "video_sha256": "5d0b15a6dd14363f4a70544edd9f13b3cf20dbd7a4f598ab8eca45ef634a2f20",
+    "vtt_sha256": "0f56d944bc48c15e126fe7f7ce039ef6b6fcb4e5aa10b8263126ea02ad9aad5"
+  },
+  "video_index": {
+    "cadence_seconds": 2,
+    "expected_frames": 2565,
+    "actual_frames": 2565,
+    "verify_only": "PASS",
+    "contact_windows": 29
+  },
+  "source_atoms": {
+    "required": 35,
+    "recorded": 35,
+    "review": "PASS"
+  },
+  "visual_coverage": {
+    "retained_assets": 37,
+    "embedded_images": 30,
+    "missing_embedded_assets": [],
+    "full_frame_geometry": "1920x1080",
+    "review": "PASS"
+  },
+  "reader_facing_sanitation": "PASS",
+  "papers": {
+    "explicit_chapter_assigned_papers": 0,
+    "status": "N/A"
+  },
+  "package_preflight": "PASS"
+}

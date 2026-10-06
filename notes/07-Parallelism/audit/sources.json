@@ -1,0 +1,60 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local-video-p07",
+      "role": "primary_lecture_video",
+      "term": "Spring 2026",
+      "title": "[P07]斯坦福 CS336：并行性（一）.mp4",
+      "origin": "Google Drive / local Bilibili-sourced copy",
+      "bilibili_collection": "https://www.bilibili.com/video/BV1msTD6CE6j",
+      "sha256": "ec43003f34e7285b269f992952c3ea195ac34385dca4a4555d1d0db5a8683646",
+      "duration_seconds": 4862.337664,
+      "frame_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "source_id": "local-vtt-p07",
+      "role": "primary_lecture_subtitles",
+      "term": "Spring 2026",
+      "title": "[P07]斯坦福 CS336：并行性（一）.vtt",
+      "origin": "Google Drive",
+      "sha256": "0c85f1cc5adec07c2e9eceab7ea886853aef42ab976c740f4c3fa4950cd637d5"
+    },
+    {
+      "source_id": "official-schedule",
+      "role": "identity_and_course_schedule",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "evidence": "Schedule row 7: Mon April 20, Parallelism [Percy], lecture_07.py"
+    },
+    {
+      "source_id": "official-lecture-07",
+      "role": "lecture_specific_support",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_07.py",
+      "alternate_url": "https://cs336.stanford.edu/lectures/?trace=lecture_07"
+    },
+    {
+      "source_id": "official-lecture-07-stdout",
+      "role": "lecture_specific_live_output_support",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/var/traces/lecture_07_stdout.txt"
+    },
+    {
+      "source_id": "official-recordings-playlist",
+      "role": "recording_collection_identity",
+      "term": "Spring 2026",
+      "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV",
+      "note": "Linked as Recordings/YouTube playlist by the Spring 2026 official course page. Item-level direct fetch was unavailable in this run; local video content was cross-checked against the Spring 2026 schedule and lecture_07 material."
+    }
+  ],
+  "evaluation_only": [],
+  "chapter_level_papers": [],
+  "paper_packaging_reason": "Spring 2026 schedule row for Lecture 7 does not explicitly associate a paper or assigned/required reading with this lecture."
+}

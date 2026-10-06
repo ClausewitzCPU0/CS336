@@ -1,0 +1,11 @@
+{
+  "interval_seconds": 2,
+  "segment_seconds": 90,
+  "duration_seconds": 4714.077959,
+  "expected_total_frames": 2358,
+  "actual_total_frames": 2358,
+  "segments_complete": 53,
+  "segments_total": 53,
+  "verify_only": "pass",
+  "tail_observation": "Final ~34.08 s segment produced 17/18 thumbnails with the workflow fps filter at the exact media boundary; cache-only repair sampled absolute times 4680, 4682, ..., 4714 s, after which --verify-only passed 2358/2358. Source video itself decoded normally."
+}

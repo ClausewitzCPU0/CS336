@@ -1,0 +1,645 @@
+{
+  "status": "PASS",
+  "required_source_atoms": 54,
+  "verified_source_atoms": 54,
+  "semantic_or_normalized_atoms_reviewed": 34,
+  "structured_or_exact_atoms_checked": 20,
+  "episodes": 24,
+  "episodes_covered": 24,
+  "markdown_image_references": 35,
+  "markdown_image_references_resolved": 35,
+  "details": [
+    {
+      "atom_id": "A001",
+      "mode": "semantic",
+      "destination": "§1",
+      "verification": "manual_section_review",
+      "basis": "Evaluation asks how good a trained model is.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A002",
+      "mode": "normalized",
+      "destination": "§1",
+      "verification": "manual_section_review",
+      "basis": "Core challenge: map an abstract construct to a concrete metric.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A003",
+      "mode": "semantic",
+      "destination": "§1",
+      "verification": "manual_section_review",
+      "basis": "Goodness can be viewed through benchmark quality, cost, preference, or real usage.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A004",
+      "mode": "structured",
+      "destination": "§2",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "\\mathrm{PPL}(D)=p(D)^{-1/N}",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A005",
+      "mode": "semantic",
+      "destination": "§2",
+      "verification": "manual_section_review",
+      "basis": "Classic LM evaluation used in-distribution train/test splits on PTB, WikiText-103, and 1BW.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A006",
+      "mode": "structured",
+      "destination": "§2",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "40 GB",
+          "present": true
+        },
+        {
+          "pattern": "1.5B",
+          "present": true
+        },
+        {
+          "pattern": "35 perplexity",
+          "present": true
+        },
+        {
+          "pattern": "46",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A007",
+      "mode": "semantic",
+      "destination": "§2",
+      "verification": "manual_section_review",
+      "basis": "The scaling-faith argument says improving likelihood pushes p toward the true distribution t.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A008",
+      "mode": "semantic",
+      "destination": "§2",
+      "verification": "manual_section_review",
+      "basis": "Plain PPL scores every token; conditional PPL focuses evaluation on response tokens given a prompt.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A009",
+      "mode": "semantic",
+      "destination": "§2",
+      "verification": "manual_section_review",
+      "basis": "LAMBADA and HellaSwag can be viewed as perplexity/next-token-style evaluation targeted at selected continuations.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A010",
+      "mode": "semantic",
+      "destination": "§2",
+      "verification": "manual_section_review",
+      "basis": "A PPL leaderboard that accepts model log probabilities must trust probability normalization.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A011",
+      "mode": "semantic",
+      "destination": "§3",
+      "verification": "manual_section_review",
+      "basis": "Exam benchmarks provide controlled subjects/difficulty and easy grading.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A012",
+      "mode": "structured",
+      "destination": "§3",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "57 个 subject",
+          "present": true
+        },
+        {
+          "pattern": "few-shot prompting",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A013",
+      "mode": "structured",
+      "destination": "§3",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "4 个选项扩展为 10",
+          "present": true
+        },
+        {
+          "pattern": "chain-of-thought",
+          "present": true
+        },
+        {
+          "pattern": "16–33",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A014",
+      "mode": "structured",
+      "destination": "§3",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "61 位 PhD contractors",
+          "present": true
+        },
+        {
+          "pattern": "65%",
+          "present": true
+        },
+        {
+          "pattern": "39%",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A015",
+      "mode": "semantic",
+      "destination": "§3",
+      "verification": "manual_section_review",
+      "basis": "Benchmark contamination can be indirect: benchmark questions may derive from source material that was in training.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A016",
+      "mode": "structured",
+      "destination": "§3",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "2500 道题",
+          "present": true
+        },
+        {
+          "pattern": "private holdout",
+          "present": true
+        },
+        {
+          "pattern": "Mythos",
+          "present": true
+        },
+        {
+          "pattern": "64.7",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A017",
+      "mode": "semantic",
+      "destination": "§3",
+      "verification": "manual_section_review",
+      "basis": "Multiple choice is not inherently easy, but exam format poorly captures open-ended real use.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A018",
+      "mode": "exact",
+      "destination": "§4",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "I want to make a beet salad with cheese. What herbs would work well and what wouldn't work well?",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A019",
+      "mode": "semantic",
+      "destination": "§4",
+      "verification": "manual_section_review",
+      "basis": "Chatbot Arena collects pairwise human preferences over anonymized model responses.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A020",
+      "mode": "structured",
+      "destination": "§4",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "P(A\\text{ beats }B)",
+          "present": true
+        },
+        {
+          "pattern": "10^{(\\mathrm{ELO}_B-\\mathrm{ELO}_A)/400}",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A021",
+      "mode": "semantic",
+      "destination": "§4",
+      "verification": "manual_section_review",
+      "basis": "Arena gains ecological realism and dynamic pairwise sampling but introduces population, style/correctness, judging, and gaming biases.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A022",
+      "mode": "semantic",
+      "destination": "§4",
+      "verification": "manual_section_review",
+      "basis": "AlpacaEval uses LLM-as-judge; length bias enabled gaming, later addressed with regression debiasing.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A023",
+      "mode": "structured",
+      "destination": "§4",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "0.98",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A024",
+      "mode": "structured",
+      "destination": "§4",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "100 万条 human-chatbot conversations",
+          "present": true
+        },
+        {
+          "pattern": "1024 个 examples",
+          "present": true
+        },
+        {
+          "pattern": "checklist / rubric",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A025",
+      "mode": "semantic",
+      "destination": "§4",
+      "verification": "manual_section_review",
+      "basis": "Pairwise comparisons often give higher signal than absolute scores; rubrics/checklists improve reliability for humans and LLM judges.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A026",
+      "mode": "normalized",
+      "destination": "§5",
+      "verification": "manual_section_review",
+      "basis": "Agent = language model + scaffold/tool-use logic.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A027",
+      "mode": "structured",
+      "destination": "§5",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "12 个 Python repositories",
+          "present": true
+        },
+        {
+          "pattern": "2294 个任务",
+          "present": true
+        },
+        {
+          "pattern": "unit tests",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A028",
+      "mode": "structured",
+      "destination": "§5",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "约 16%",
+          "present": true
+        },
+        {
+          "pattern": "约 93%",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A029",
+      "mode": "structured",
+      "destination": "§5",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "229 个 crowdsourced tasks",
+          "present": true
+        },
+        {
+          "pattern": "93 位 contributors",
+          "present": true
+        },
+        {
+          "pattern": "89 个构成 Terminal-Bench 2.0",
+          "present": true
+        },
+        {
+          "pattern": "agent scaffold",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A030",
+      "mode": "structured",
+      "destination": "§5",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "40 个 Capture The Flag tasks",
+          "present": true
+        },
+        {
+          "pattern": "action–environment feedback loop",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A031",
+      "mode": "structured",
+      "destination": "§5",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "75 个 Kaggle competitions",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A032",
+      "mode": "semantic",
+      "destination": "§5",
+      "verification": "manual_section_review",
+      "basis": "Strong agent scaffolds use explicit planning, sub-agent delegation, persistent memory/files, and context engineering.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A033",
+      "mode": "semantic",
+      "destination": "§5",
+      "verification": "manual_section_review",
+      "basis": "Agent evaluation measures the LM and scaffold together.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A034",
+      "mode": "semantic",
+      "destination": "§6",
+      "verification": "manual_section_review",
+      "basis": "ARC-AGI aims to isolate reasoning from knowledge with human-solvable, unique tasks.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A035",
+      "mode": "semantic",
+      "destination": "§6",
+      "verification": "manual_section_review",
+      "basis": "ARC-AGI-2 increases multi-step reasoning; ARC-AGI-3 (Mar 2026) moves to interactive environments.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A036",
+      "mode": "semantic",
+      "destination": "§6",
+      "verification": "manual_section_review",
+      "basis": "Pure-reasoning evaluation is hard to isolate and remains bounded by human-solvable tasks; ARC-AGI-3 also adds spatial/graphical reasoning.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A037",
+      "mode": "structured",
+      "destination": "§7",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "510 个 harmful behaviors",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A038",
+      "mode": "structured",
+      "destination": "§7",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "314 个 risk categories",
+          "present": true
+        },
+        {
+          "pattern": "5694 个 prompts",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A039",
+      "mode": "semantic",
+      "destination": "§7",
+      "verification": "manual_section_review",
+      "basis": "GCG automatically optimizes jailbreak suffixes; the lecture highlights transfer from open-weight to closed models.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A040",
+      "mode": "semantic",
+      "destination": "§7",
+      "verification": "manual_section_review",
+      "basis": "AI safety is contextual and multi-dimensional; cybersecurity capability is dual-use.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A041",
+      "mode": "semantic",
+      "destination": "§8",
+      "verification": "manual_section_review",
+      "basis": "Ecological validity asks how well an evaluation captures real-world use.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A042",
+      "mode": "structured",
+      "destination": "§8",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "9 个 sectors",
+          "present": true
+        },
+        {
+          "pattern": "44 个 occupations",
+          "present": true
+        },
+        {
+          "pattern": "14 年",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A043",
+      "mode": "structured",
+      "destination": "§8",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "121 个 clinical tasks",
+          "present": true
+        },
+        {
+          "pattern": "29 位 clinicians",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A044",
+      "mode": "semantic",
+      "destination": "§8",
+      "verification": "manual_section_review",
+      "basis": "Clio uses LMs to analyze aggregate real-user patterns; realism and privacy can conflict.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A045",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "Foundation-model evaluation complicates train/test separation because training data is broad and often undisclosed.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A046",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "One route detects contamination by exploiting expected exchangeability/order randomness of benchmark items.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A047",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "A second route is reporting norms: providers should justify claimed benchmark scores with overlap information.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A048",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "Fresh evaluations reduce contamination risk, though timestamps do not guarantee source novelty.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A049",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "Private evaluations can provide cleaner held-out data; private text is especially easy to use for PPL evaluation.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A050",
+      "mode": "structured",
+      "destination": "§9",
+      "verification": "deterministic_pattern_check",
+      "checks": [
+        {
+          "pattern": "输出空响应也能得到 38%",
+          "present": true
+        }
+      ],
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A051",
+      "mode": "semantic",
+      "destination": "§9",
+      "verification": "manual_section_review",
+      "basis": "Use qualitative trace/output audits alongside benchmark scores to check that the metric measures the intended behavior.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A052",
+      "mode": "semantic",
+      "destination": "§10",
+      "verification": "manual_section_review",
+      "basis": "Evaluation depends on purpose: product choice, capability research, benefits/harms, or developer feedback.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A053",
+      "mode": "semantic",
+      "destination": "§10",
+      "verification": "manual_section_review",
+      "basis": "Pre-foundation evaluation often compared methods on fixed splits; modern evaluation mostly compares end models/systems, with exceptions such as NanoGPT speedrun.",
+      "status": "verified_in_final_note"
+    },
+    {
+      "atom_id": "A054",
+      "mode": "semantic",
+      "destination": "§11",
+      "verification": "manual_section_review",
+      "basis": "No single evaluation is universally correct; choose based on purpose and trade off difficulty, realism, and validity.",
+      "status": "verified_in_final_note"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "artifact_basename": "11-Scaling-laws",
+  "local_to_official_mapping": "P11 -> Lecture 11 — Scaling laws",
+  "identity_status": "PASS",
+  "base_index_status": "PASS",
+  "contact_sheet_windows_inspected": 26,
+  "retained_visual_states": 60,
+  "coverage_assets_full_frame": true,
+  "coverage_asset_dimensions": [
+    1920,
+    1080
+  ],
+  "official_material_discovery": "lecture_11.pdf located in Spring 2026 lectures repo; raw PDF not materialized, therefore not used as a content source",
+  "chapter_level_papers_included": 0
+}

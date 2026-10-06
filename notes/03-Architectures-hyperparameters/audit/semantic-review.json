@@ -1,0 +1,37 @@
+{
+  "workflow": "ChatGPT-Web-Course-Note-Workflow-v4.9.4",
+  "source_atom_obligation": {
+    "total_atoms": 25,
+    "required_atoms": 23,
+    "required_destination_missing": [],
+    "status": "PASS",
+    "review": "Required exact/structured quantities, equations, identifiers and conclusions were checked against the aligned VTT and visible lecture frames before finalization."
+  },
+  "semantic_coverage": {
+    "events_total": 11,
+    "events_covered": 11,
+    "status": "PASS",
+    "judgment": "All major lecture arcs are represented: architecture survey, normalization/RMSNorm, gated FFNs, serial/parallel blocks, RoPE, consensus hyperparameters, vocabulary/regularization, stability, GQA/MQA, and sliding-window/hybrid attention."
+  },
+  "slide_visual_coverage": {
+    "distinct_retained": 110,
+    "referenced_in_markdown": 28,
+    "retained_but_not_referenced": 82,
+    "status": "PASS",
+    "note": "Reader-facing Markdown references a curated subset; all retained visual states remain in assets/coverage as required."
+  },
+  "dynamic_state_chain": {
+    "status": "PASS",
+    "judgment": "No live terminal/IDE/demo state chain in this lecture. Non-slide camera shots are presenter views; instructional content is carried by slides and speech."
+  },
+  "reader_facing_sanitation": {
+    "html_comments": false,
+    "internal_audit_ids": false,
+    "html_anchor_ids": false,
+    "disallowed_math_delimiters": false,
+    "status": "PASS"
+  },
+  "unverified_scope": [
+    "Per-model rows in large comparison tables are preserved in full-frame coverage assets; the main Markdown transcribes the lecture conclusions rather than every table cell."
+  ]
+}

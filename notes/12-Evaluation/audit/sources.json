@@ -1,0 +1,122 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4",
+    "manifest_verified": true
+  },
+  "chapter_identity": {
+    "target_local_chapter": "P12",
+    "local_title": "斯坦福 CS336：评估",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 12,
+    "official_title": "Evaluation",
+    "official_date": "2026-05-06",
+    "official_instructor_listing": "Percy",
+    "mapping_status": "confirmed",
+    "numbering_space": "same"
+  },
+  "drive_discovery": {
+    "course_folder_id": "1A60z2af31HGh5Tdwm5DuUueDiAddbw__",
+    "top_k": 300,
+    "returned_count": 60,
+    "complete_for_connector": true,
+    "xml_present": false,
+    "course_profile_present": false,
+    "p12_candidates": [
+      {
+        "title": "[P12]斯坦福 CS336：评估.vtt",
+        "id": "1OTC1rXvfh9Ogijo6q1n4TCI3NPt5KVjc",
+        "size_bytes": 100283
+      },
+      {
+        "title": "[P12]斯坦福 CS336：评估.zip.001",
+        "id": "1V3IsHJH-LZ0eGPFn4egW-g7ik8F2rBtE",
+        "size_bytes": 209715200
+      },
+      {
+        "title": "[P12]斯坦福 CS336：评估.zip.002",
+        "id": "1HYp00JDhppbYJkt88LgA2GkqunbjyssY",
+        "size_bytes": 83690269
+      },
+      {
+        "title": "[P12]斯坦福 CS336：评估.mp4",
+        "id": "10REEXWPS66z4nrUH3fxCNlBxBWJ5x5HC",
+        "size_bytes": 293405281
+      }
+    ]
+  },
+  "local_sources": [
+    {
+      "source_id": "local_video_P12",
+      "kind": "video",
+      "role": "primary_lecture_video",
+      "path_in_working_set": "source.mp4",
+      "duration_seconds": 4714.077959,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "sha256": "27211ca11aafd668f59b53aa97825ecfe3efbc6d648a5b026a3a60300c1d17fc"
+    },
+    {
+      "source_id": "local_subtitles_P12",
+      "kind": "vtt",
+      "role": "primary_transcript",
+      "path_in_working_set": "source.vtt",
+      "timeline_end_seconds": 4710.71,
+      "sha256": "b32da4940b7ae3fcb54800ae37897f668b50e514eee21e6c39f98e62a2af2e48"
+    },
+    {
+      "source_id": "multipart_001",
+      "kind": "archive_part",
+      "role": "input_transport",
+      "size_bytes": 209715200,
+      "sha256": "c9634907cbb3c2b562f39cf10175bafee97f37747bd7ed08a419e15e1223132f"
+    },
+    {
+      "source_id": "multipart_002",
+      "kind": "archive_part",
+      "role": "input_transport",
+      "size_bytes": 83690269,
+      "sha256": "4dc87ffd01a135bcf3662d66337433ed9760bbffb358c808447bba58389e09fd"
+    },
+    {
+      "source_id": "multipart_reconstructed",
+      "kind": "zip",
+      "role": "input_transport",
+      "sha256": "16011966ac2d5f632a048b71c0c19aa1a5b0528c7949b44c781e4f31bde53727",
+      "zip_test": "pass"
+    }
+  ],
+  "official_sources": [
+    {
+      "source_id": "official_schedule_s2026",
+      "kind": "course_schedule",
+      "role": "identity_and_mapping",
+      "term": "Spring 2026",
+      "url": "https://cs336.stanford.edu/",
+      "chapter_relation": "Lecture 12 — Evaluation [Percy], Wed May 6"
+    },
+    {
+      "source_id": "official_lecture_12_py",
+      "kind": "executable_lecture",
+      "role": "same_term_primary_material",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_12.py",
+      "raw_url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_12.py",
+      "chapter_relation": "Lecture 12: evaluation"
+    },
+    {
+      "source_id": "official_lectures_repo",
+      "kind": "repository",
+      "role": "same_term_material_index",
+      "term": "Spring 2026",
+      "url": "https://github.com/stanford-cs336/lectures"
+    }
+  ],
+  "paper_packaging": {
+    "required_assigned_reading_found": false,
+    "papers_bundled": 0,
+    "reason": "No Spring 2026 paper/assigned-reading PDF was identified as explicitly assigned to Lecture 12; inline benchmark paper links in lecture_12.py are references, not chapter-level required readings."
+  }
+}

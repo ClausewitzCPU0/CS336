@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "interval_seconds": 2.0,
+  "segment_seconds": 90.0,
+  "segments_expected": 54,
+  "segments_completed": 54,
+  "frames_expected": 2406,
+  "frames_actual": 2406,
+  "video_duration_seconds": 4810.417732,
+  "verification": "verify-only completed successfully after targeted repair of the fractional final segment",
+  "repair_note": "The final fractional segment initially produced one fewer image with an fps filter. It was rebuilt at exact 2-second timestamps including 00:80:10-equivalent endpoint sampling, then the full cache re-verified as 2406/2406 frames."
+}

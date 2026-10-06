@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "S001",
+    "title": "[P04]斯坦福 CS336：注意力替代方案与专家混合.mp4",
+    "kind": "lecture_video",
+    "term": "Spring 2026",
+    "provenance_role": "original_lecture_video",
+    "status": "fully_materialized_from_complete_multipart_archive",
+    "drive_file_id": "1tH_pBvNAg3ObwI899YegIh4un69P3u9W",
+    "multipart_drive_ids": [
+      "1u7NahWUUSHpJZ1mTnkq_XW-eGpOgqjrc",
+      "19ir-qLXrOB_MoU8xJvI1rrf_CwHOQX8R"
+    ],
+    "sha256": "d3eb649eca6fe62c724dc41adeba7533c15e7e11fdcfb9261bfca68f56a96462",
+    "generation_eligible": true
+  },
+  {
+    "source_id": "S002",
+    "title": "[P04]斯坦福 CS336：注意力替代方案与专家混合.vtt",
+    "kind": "subtitle",
+    "term": null,
+    "provenance_role": "unknown_subtitle",
+    "status": "fully_materialized",
+    "drive_file_id": "1WarMFrFDxmmywsl2KsUNP_jytyx-ztgK",
+    "generation_eligible": true,
+    "note": "Subtitle language is English; origin was not independently verified, so it is used as a timing/text aid and cross-checked against the video."
+  },
+  {
+    "source_id": "S003",
+    "title": "CS336 Spring 2026 course schedule",
+    "kind": "official_schedule",
+    "term": "Spring 2026",
+    "provenance_role": "official_schedule",
+    "url": "https://cs336.stanford.edu/",
+    "status": "verified",
+    "generation_eligible": true,
+    "verified_fact": "Wed Apr 8: Attention alternatives and mixture of experts [Tatsu]; course material: lecture 4.pdf"
+  },
+  {
+    "source_id": "S004",
+    "title": "lecture_04.pdf",
+    "kind": "official_lecture_material",
+    "term": "Spring 2026",
+    "provenance_role": "official_material_metadata",
+    "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_04.pdf",
+    "status": "metadata_verified_binary_not_materialized",
+    "sha": "9324afef828dd22b63813702e6dc1c3246123648",
+    "size_bytes": 6500834,
+    "generation_eligible": false,
+    "note": "The public GitHub connector exposed repository metadata but could not return PDF bytes; no uninspected PDF body was used as evidence."
+  },
+  {
+    "source_id": "S005",
+    "title": "stanford-cs336/lectures",
+    "kind": "official_repository",
+    "term": "Spring 2026",
+    "provenance_role": "official_repo_metadata",
+    "url": "https://github.com/stanford-cs336/lectures",
+    "status": "verified",
+    "generation_eligible": true
+  },
+  {
+    "source_id": "S006",
+    "title": "Bilibili local collection",
+    "kind": "local_collection_context",
+    "term": null,
+    "provenance_role": "local_collection_context",
+    "url": "https://www.bilibili.com/video/BV1msTD6CE6j",
+    "status": "context_only",
+    "generation_eligible": false
+  }
+]

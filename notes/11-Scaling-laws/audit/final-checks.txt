@@ -1,0 +1,15 @@
+Course Note Workflow v4.9.4 final checks
+
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 11-Scaling-laws
+PASS: retained coverage assets present 60/60
+PASS: full-frame coverage assets 60/60 at 1920x1080
+
+Sanitation:
+PASS: no forbidden reader-facing markers
+
+Package files before ZIP:
+69
+Coverage assets:
+60

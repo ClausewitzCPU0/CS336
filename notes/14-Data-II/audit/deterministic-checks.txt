@@ -1,0 +1,5 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 14-Data-II
+PASS: retained coverage assets present 50/50
+PASS: full-frame coverage assets 50/50 at 1920x1080

@@ -1,0 +1,19 @@
+{
+  "required_atoms": 51,
+  "covered_required_atoms": 51,
+  "obligation_mode_counts": {
+    "semantic": 15,
+    "normalized": 3,
+    "structured": 17,
+    "exact": 16
+  },
+  "exact_claim_mechanical_checks": {
+    "checked": 16,
+    "failed": []
+  },
+  "structured_and_semantic_review": "manually reviewed against the local recording, VTT, inspected slide states, and the final Markdown during the prose pass",
+  "text_side_orphans": 0,
+  "visual_side_orphans": 0,
+  "dynamic_state_chain": "not_applicable; no terminal/IDE/live-demo episode was present",
+  "status": "pass"
+}

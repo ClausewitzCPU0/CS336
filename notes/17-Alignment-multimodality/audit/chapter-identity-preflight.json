@@ -1,0 +1,24 @@
+{
+  "local_chapter": "P17",
+  "official_unit_number": 17,
+  "official_title": "Alignment - multimodality",
+  "date": "2026-05-27",
+  "instructor": "Percy Liang",
+  "mapping_status": "confirmed",
+  "mapping_evidence": [
+    "Local video opening states overview of multimodal models.",
+    "Spring 2026 official schedule row: Lecture 17, Wed May 27, Alignment - multimodality [Percy], lecture_17.py.",
+    "Stanford Online first-party recording title matches Lecture 17: Alignment - Multimodality.",
+    "Local video/subtitle start, middle, and end spot checks align with lecture_17.py sequence and visible lecture content."
+  ],
+  "video_probe": {
+    "width": 1920,
+    "height": 1080,
+    "duration_seconds": 4662.607914,
+    "video_codec": "h264",
+    "fps": 30
+  },
+  "subtitle_pairing": "confirmed",
+  "xml_status": "not_present_and_not_required",
+  "required_inputs_complete": true
+}

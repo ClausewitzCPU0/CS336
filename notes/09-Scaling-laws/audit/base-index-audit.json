@@ -1,0 +1,10 @@
+{
+  "interval_seconds": 2,
+  "segment_seconds": 90,
+  "segments_complete": 52,
+  "segments_total": 52,
+  "expected_frames": 2339,
+  "actual_frames": 2339,
+  "verify_only_status": "complete",
+  "note": "Final segment produced 43 frames with ffmpeg fps filter versus theoretical ceil 44; one explicit source frame at t=4676s was added, then the unmodified v4.9.4 verifier passed 2339/2339."
+}

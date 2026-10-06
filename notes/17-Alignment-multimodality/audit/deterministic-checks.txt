@@ -1,0 +1,5 @@
+PASS: reader-facing deterministic checks
+PASS: workflow metadata v4.9.4
+PASS: artifact basename 17-Alignment-multimodality
+PASS: retained coverage assets present 35/35
+PASS: full-frame coverage assets 35/35 at 1920x1080

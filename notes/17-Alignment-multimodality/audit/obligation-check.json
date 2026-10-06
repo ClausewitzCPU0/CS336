@@ -1,0 +1,8 @@
+{
+  "required_atoms": 35,
+  "verified_required_atoms": 35,
+  "protected_search_tokens_checked": 39,
+  "protected_search_tokens_missing": [],
+  "sanitation": "PASS",
+  "semantic_obligation_review": "PASS"
+}

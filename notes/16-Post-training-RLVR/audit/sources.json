@@ -1,0 +1,102 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter_identity": {
+    "target_local_chapter": "16",
+    "local_label": "P16",
+    "official_lecture_number": 16,
+    "official_title": "Post-training - RLVR",
+    "date": "2026-05-20",
+    "speaker": "Tatsunori Hashimoto (Tatsu)",
+    "mapping_status": "confirmed"
+  },
+  "sources": [
+    {
+      "source_id": "local_video",
+      "kind": "video",
+      "role": "primary_generation",
+      "title": "[P16]斯坦福 CS336：后训练 - RLVR.mp4",
+      "path_external": "Google Drive: cs_courses\\AI\\CS336\\",
+      "duration_seconds": 4553.497347,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "sha256": "544278fd39faf5a96b11f1dbc663d532545f1ea2d2aba3ca296db972bb76aaf5"
+    },
+    {
+      "source_id": "local_vtt",
+      "kind": "subtitle",
+      "role": "primary_generation",
+      "title": "[P16]斯坦福 CS336：后训练 - RLVR.vtt",
+      "path_external": "Google Drive: cs_courses\\AI\\CS336\\",
+      "cue_count": 1687,
+      "sha256": "30483323b58bf5bf32d6d3691e24a5aca075508460ec4d752065fc1d6cebaec3",
+      "provenance_note": "Local English WebVTT; used as transcript support and checked against visible lecture states."
+    },
+    {
+      "source_id": "official_schedule",
+      "kind": "web",
+      "role": "identity_and_material_discovery",
+      "title": "CS336 Spring 2026 course schedule",
+      "url": "https://cs336.stanford.edu/",
+      "provenance": "first_party"
+    },
+    {
+      "source_id": "official_slides",
+      "kind": "pdf_url",
+      "role": "material_discovery",
+      "title": "lecture_16.pdf",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_16.pdf",
+      "provenance": "first_party",
+      "ingestion_status": "identity/url verified; PDF body not used to introduce claims beyond the local lecture video"
+    },
+    {
+      "source_id": "official_video",
+      "kind": "video_url",
+      "role": "identity_corroboration",
+      "title": "Stanford CS336 Spring 2026 Lecture 16: Post-Training - RLVR",
+      "url": "https://www.youtube.com/watch?v=dIFAi87Ws4E",
+      "provenance": "first_party Stanford Online"
+    },
+    {
+      "source_id": "assignment5",
+      "kind": "repository",
+      "role": "lecture_associated_material",
+      "title": "CS336 Spring 2026 Assignment 5: Alignment",
+      "url": "https://github.com/stanford-cs336/assignment5-alignment",
+      "provenance": "first_party"
+    },
+    {
+      "source_id": "assignment5_handout",
+      "kind": "pdf_url",
+      "role": "lecture_associated_material",
+      "title": "cs336_spring2026_assignment5_alignment.pdf",
+      "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_alignment.pdf",
+      "provenance": "first_party"
+    },
+    {
+      "source_id": "bilibili_collection",
+      "kind": "video_collection_url",
+      "role": "evaluation_only_source_description",
+      "url": "https://www.bilibili.com/video/BV1msTD6CE6j",
+      "provenance_note": "Not used as authority for lecture identity or content."
+    }
+  ],
+  "base_index": {
+    "interval_seconds": 2.0,
+    "segment_seconds": 90.0,
+    "segments_completed": 51,
+    "segments_total": 51,
+    "expected_frames": 2277,
+    "actual_frames": 2277,
+    "verify_only_status": "complete"
+  },
+  "official_reading_packaging": {
+    "chapter_specific_assigned_paper_found": false,
+    "packaged_papers": [],
+    "note": "No lecture-specific assigned paper/reading was identified on the Spring 2026 schedule for Lecture 16; Assignment 5 is linked instead."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "chapter": {
+    "local_label": "P14",
+    "official_unit_label": "Lecture",
+    "official_unit_number": 14,
+    "official_title": "Data (filtering, deduplication, mixing, synthetic data)",
+    "date": "2026-05-13",
+    "lecturer": "Percy Liang",
+    "term": "Spring 2026"
+  },
+  "generation_allowlist": [
+    {
+      "source_id": "local_video_p14",
+      "type": "video",
+      "role": "primary_lecture_video",
+      "title": "[P14]斯坦福 CS336：数据2.mp4",
+      "drive_file_id": "1CPJw2F47GNGQtT1EWZDH6wWcIsAzIFeG",
+      "retrieval": "reconstructed from exact-target multipart ZIP because direct raw download exceeded connector size limit",
+      "sha256": "143b068f7f92d08208d041c0dd923b02136c00466d4dda75a51c9a752797157f",
+      "duration_seconds": 5089.204921,
+      "frame_size": [
+        1920,
+        1080
+      ],
+      "status": "verified"
+    },
+    {
+      "source_id": "local_vtt_p14",
+      "type": "subtitle",
+      "role": "primary_transcript",
+      "title": "[P14]斯坦福 CS336：数据2.vtt",
+      "drive_file_id": "1rsupSdGU46CzNErB61j_vhk3B0pRURwZ",
+      "language": "en-US",
+      "status": "verified_against_video_and_official_material"
+    },
+    {
+      "source_id": "official_schedule",
+      "type": "webpage",
+      "role": "identity_and_course_metadata",
+      "url": "https://cs336.stanford.edu/",
+      "term": "Spring 2026",
+      "status": "verified"
+    },
+    {
+      "source_id": "official_lecture_14",
+      "type": "code_executable_lecture",
+      "role": "same_term_official_material",
+      "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_14.py",
+      "repository": "stanford-cs336/lectures",
+      "path": "lecture_14.py",
+      "ref": "main",
+      "blob_sha": "9a6c63b5509854fd4fab13fbba157df289e7aa7b",
+      "status": "verified"
+    },
+    {
+      "source_id": "assignment4_data",
+      "type": "github_repository",
+      "role": "related_coursework_not_lecture_specific",
+      "url": "https://github.com/stanford-cs336/assignment4-data",
+      "term": "Spring 2026",
+      "status": "verified"
+    }
+  ],
+  "excluded_from_generation": [
+    {
+      "category": "other_terms",
+      "reason": "Spring 2026 primary sources were sufficient; no older-term lecture material was needed."
+    },
+    {
+      "category": "bilibili_metadata",
+      "reason": "Used only to describe local video origin; not used as authority for official numbering/title/instructor."
+    },
+    {
+      "category": "chapter_papers",
+      "reason": "Lecture 14 schedule/material did not explicitly designate an assigned or required reading PDF, so no paper was packaged."
+    }
+  ]
+}

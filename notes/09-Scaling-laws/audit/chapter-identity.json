@@ -1,0 +1,14 @@
+{
+  "target_local_chapter": "P09",
+  "local_title": "斯坦福 CS336：缩放定律",
+  "recording_visible_title": "Lecture 9 — Scaling Laws - Basics",
+  "official_mapping": "Lecture 9 — Scaling laws",
+  "official_date": "2026-04-27",
+  "official_lecturer": "Tatsunori Hashimoto (Tatsu)",
+  "evidence": [
+    "Video title frame",
+    "VTT opening says today is basics; next lecture inference; later advanced scaling",
+    "Spring 2026 official schedule: Lecture 9 Apr 27 Scaling laws [Tatsu], Lecture 10 Inference, Lecture 11 Scaling laws"
+  ],
+  "status": "PASS"
+}

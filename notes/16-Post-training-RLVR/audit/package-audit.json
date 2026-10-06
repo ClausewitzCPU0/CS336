@@ -1,0 +1,73 @@
+{
+  "workflow": {
+    "name": "ChatGPT-Web-Course-Note-Workflow",
+    "version": "v4.9.4"
+  },
+  "artifact_basename": "16-Post-training-RLVR",
+  "chapter_identity": {
+    "target_local_chapter": "16",
+    "local_label": "P16",
+    "official_lecture_number": 16,
+    "official_title": "Post-training - RLVR",
+    "date": "2026-05-20",
+    "speaker": "Tatsunori Hashimoto (Tatsu)",
+    "mapping_status": "confirmed"
+  },
+  "input_discovery": {
+    "complete": true,
+    "target_local_chapter": "16",
+    "matched_direct_inputs": [
+      "[P16]斯坦福 CS336：后训练 - RLVR.mp4",
+      "[P16]斯坦福 CS336：后训练 - RLVR.vtt"
+    ],
+    "multipart_zip_required": false,
+    "optional_xml_found": false
+  },
+  "official_material_discovery": {
+    "complete": true,
+    "spring_2026_schedule_verified": true,
+    "lecture_16_pdf_identity_url_verified": true,
+    "assignment_5_association_verified": true,
+    "chapter_specific_assigned_paper_found": false,
+    "official_slide_pdf_body_used_for_claim_generation": false
+  },
+  "base_index": {
+    "interval_seconds": 2.0,
+    "segment_seconds": 90.0,
+    "segments_completed": 51,
+    "segments_total": 51,
+    "expected_frames": 2277,
+    "actual_frames": 2277,
+    "verify_only_status": "complete"
+  },
+  "source_atoms": {
+    "count": 41,
+    "required_count": 34,
+    "all_required_have_destination": true,
+    "all_required_have_episode_mapping": true
+  },
+  "episodes": {
+    "count": 12,
+    "covered_count": 12,
+    "all_covered": true
+  },
+  "visual_coverage": {
+    "ledger_records": 66,
+    "retained": 58,
+    "merge_duplicate": 6,
+    "omitted": 2,
+    "retained_assets_present": 58,
+    "all_retained_assets_full_frame_1920x1080": true
+  },
+  "main_markdown": {
+    "path": "16-Post-training-RLVR.md",
+    "image_references": 23,
+    "all_image_references_resolve": true,
+    "external_image_references": 0
+  },
+  "papers_required": false,
+  "validation": {
+    "structured_audit_pass": true,
+    "failures": []
+  }
+}
